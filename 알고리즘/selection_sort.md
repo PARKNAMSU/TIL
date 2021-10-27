@@ -3,6 +3,8 @@
 선택 정렬이란 어떠한 숫자들의 집합인 배열이 있을 때 가장 작은(혹은 큰) 숫자를 앞으로 보내서 정렬을 하는 정렬 알고리즘이다.
 선택정렬은 가장 원시적이고 기초적인 알고리즘이다.
 
+<br>
+
 ### example
 ```javascript
 function selectionSort(arr){
@@ -29,6 +31,8 @@ function selectionSort(arr){
     return arr;
 }
 ```
+
+<br>
 
 ### 선택정렬의 시간복잡도
 선택정렬은 데이터가 N개가 있을 경우 N의 2제곱만큼 연산을 수행해야 한다.
