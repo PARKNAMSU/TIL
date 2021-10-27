@@ -9,3 +9,4 @@
 
 ### express
 * [express 개발환경 구축](https://github.com/PARKNAMSU/TIL/blob/main/express/express_setting.md)
+* [express 기본 라우팅](https://github.com/PARKNAMSU/TIL/blob/main/express/express_routing.md)
