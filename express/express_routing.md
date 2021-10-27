@@ -50,7 +50,7 @@ app.listen(port,() => {
 })
 ```
 <br>
-##전체코드
+## 전체코드
 ```javascript
 const express = require('express');
 const app = express();
@@ -63,3 +63,8 @@ app.listen(port,() => {
   console.log(`localhost:${port} start!!`);
 })
 ```
+
+<br>
+
+참조
+[express 공식문서](https://expressjs.com/ko/starter/basic-routing.html)
