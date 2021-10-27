@@ -17,3 +17,17 @@ init 명령어로 package.json 파일을 생성한다. 만약 자동으로 설�
 $ npm init
 $ npm init -y
 ```
+
+<br>
+
+### express 설치
+npm install 을 이용하여 express를 설치한다. <br> package.json에 종속 항목으로 추가할 경우 --save를 추가하고, 추가하지 않을경우 생략한다.
+```
+$ npm install express
+$ npm install express --save
+```
+
+<br>
+
+참조
+[express 공식문서](https://expressjs.com/ko/starter/installing.html)
