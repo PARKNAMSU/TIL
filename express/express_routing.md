@@ -62,10 +62,11 @@ const port = 3000;
 
 app.get('/index',(req,res) => {
   res.send("It is a Index Page ");
-})
+});
+
 app.listen(port,() => {
   console.log(`localhost:${port} start!!`);
-})
+});
 ```
 
 <br>
