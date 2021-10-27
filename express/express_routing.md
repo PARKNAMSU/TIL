@@ -42,6 +42,7 @@ app.get('/index',(req,res) => {
 })
 ```
 <br>
+
 ### listening
 app.listen 을 이용하여 서버를 연다.
 ```javascript
@@ -49,7 +50,9 @@ app.listen(port,() => {
   console.log(`localhost:${port} start!!`);
 })
 ```
+
 <br>
+
 ## 전체코드
 
 ```javascript
