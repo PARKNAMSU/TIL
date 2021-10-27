@@ -35,5 +35,5 @@ function selectionSort(arr){
 이를 O(N^2) 로 표현할 수 있다.
 
 <br><br>
-__참조__
+__참조__ <br>
 [안경잡이 개발자](https://m.blog.naver.com/PostView.naver?blogId=ndb796&logNo=221226800661&navType=by)
