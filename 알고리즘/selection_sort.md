@@ -34,5 +34,6 @@ function selectionSort(arr){
 선택정렬은 데이터가 N개가 있을 경우 N의 2제곱만큼 연산을 수행해야 한다.
 이를 O(N^2) 로 표현할 수 있다.
 
-<br>
+<br><br>
+
 [참조: 안경잡이 개발자](https://m.blog.naver.com/PostView.naver?blogId=ndb796&logNo=221226800661&navType=by)
