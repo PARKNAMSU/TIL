@@ -8,4 +8,4 @@
 * [Seleted Sort](https://github.com/PARKNAMSU/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/selection_sort.md)
 
 ### express
-* [express 개발환경 구축]
+* [express 개발환경 구축](https://github.com/PARKNAMSU/TIL/blob/main/express/express_setting.md)
