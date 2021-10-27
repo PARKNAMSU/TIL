@@ -37,7 +37,29 @@ const port = 3000;
 // GET 메소드와 경로 '/index' 사용
 // 1번째인자 : 경로    2번째 인자 : 핸들러 (request,response[,next]) 요청, 응답, next(다음 실행, 옵션)
 // response.send()로 response 데이터 전달
-app.get('/index',function(req,res){
+app.get('/index',(req,res) => {
   res.send("It is a Index Page ");
+})
+```
+<br>
+### listening
+app.listen 을 이용하여 서버를 연다.
+```javascript
+app.listen(port,() => {
+  console.log(`localhost:${port} start!!`);
+})
+```
+<br>
+##전체코드
+```javascript
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/index',(req,res) => {
+  res.send("It is a Index Page ");
+})
+app.listen(port,() => {
+  console.log(`localhost:${port} start!!`);
 })
 ```
