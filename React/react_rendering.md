@@ -39,3 +39,6 @@ ReactDom.render(
   document.getElementById('root');
 )
 ```
+
+<br>참조<br>
+[React 공식문서](https://ko.reactjs.org/docs/rendering-elements.html)
