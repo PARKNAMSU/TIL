@@ -80,5 +80,9 @@ const App = () => {
 ```
 '{}' 를 이용하여 JSX태그 내에서 자바스크립트 코드를 사용할 수 있다.
 
+<br>
+
+### [Codepen 에서 확인](https://codepen.io/parknamsu/pen/gOxRvrv)
+
 <br>참조<br>
 [React 공식문서](https://ko.reactjs.org/docs/components-and-props.html)
