@@ -31,3 +31,8 @@ function bubbleSort(arr){
 
 ###  버블정렬의 시간복잡도
 버블정렬의 시간복잡도는 선택정렬과 마찬가지로 N의 2제곱으로, O(N^2) 이다.
+
+<br>
+
+참조<br>
+[안경잡이 개발자](https://m.blog.naver.com/ndb796/221226803544)
