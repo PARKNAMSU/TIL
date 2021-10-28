@@ -37,7 +37,7 @@ class Main extends React.Component {
       <div>
         <h1>{this.props.title}</h1>
       </div>
-  );
+    );
   }
 }
 
