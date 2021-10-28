@@ -73,7 +73,7 @@ const Main = (props) => {
 const App = () => {
   return (
     <div>
-      <Main title='Main Title' /> /* html 의 attribute 처럼 key = value 형태로 하위 컴포넌트에 props 를 할당한다. */
+      <Main title='Main Title' /> // html 의 attribute 처럼 key = value 형태로 하위 컴포넌트에 props 를 할당한다. 
     </div>
   );
 }
