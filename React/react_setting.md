@@ -27,5 +27,4 @@ $ npm start
 
 <br>
 
-![완료](![Uploading react_success.png…])
-
+<img width="1231" alt="완료" src="https://user-images.githubusercontent.com/62639722/139190047-b198666c-7075-419b-98f9-6b2e13d32c61.png">
