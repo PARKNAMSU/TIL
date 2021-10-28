@@ -15,3 +15,4 @@
 ### React
 * [개발환경 구축](https://github.com/PARKNAMSU/TIL/blob/main/React/react_setting.md)
 * [리액트 랜더링](https://github.com/PARKNAMSU/TIL/blob/main/React/react_rendering.md)
+* [리액트 Component와 props](https://github.com/PARKNAMSU/TIL/blob/main/React/react_component_props.md)
