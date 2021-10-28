@@ -16,7 +16,7 @@ const App = () => {
 클래스 컴포넌트는 클래스를 사용해서 컴포넌트를 생성하는 것이다.
 ```javascript
 class App extends React.Component{ // React.Component를 상속받아야 클래스 컴포넌트로 사용할 수 있음
-  render(){ render()를 이용하여 컴포넌트 구조 생성
+  render(){ //render()를 이용하여 컴포넌트 구조 생성
     <div>
       <h1>I'm Class Component!!</h1>
     </div>
