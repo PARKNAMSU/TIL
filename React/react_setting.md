@@ -13,7 +13,7 @@ $ cd [폴더경로]
 
 ### react 앱 설치
 npx 를 이용하여 react 앱을 설치한다.
-````
+```
 $ npx create-react-app [프로젝트명]
 ```
 
