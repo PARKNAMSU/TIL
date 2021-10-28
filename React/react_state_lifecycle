@@ -2,6 +2,7 @@
 
 ### state 추가
 props와 달리 변경할 수 있는 값인 state를 클래스 컴포넌트에 추가한다.
+
 ```javascript
 
 
