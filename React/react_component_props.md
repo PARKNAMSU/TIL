@@ -1,6 +1,6 @@
 # 리액트 컴포넌트와 props
 
-###함수 컴포넌트와 클래스 컴포넌트
+### 함수 컴포넌트와 클래스 컴포넌트
 
 함수 컴포넌트는 [리액트 랜더링](https://github.com/PARKNAMSU/TIL/blob/main/React/react_rendering.md) 에서 사용한 방식으로, 함수를 이용해 컴포넌트를 생성하는 것이다.
 ```javascript
@@ -73,7 +73,7 @@ const Main = (props) => {
 const App = () => {
   return (
     <div>
-      <Main title='Main Title' /> <!-- html 의 attribute 처럼 key = value 형태로 하위 컴포넌트에 props 를 할당한다. -->
+      <Main title='Main Title' /> /* html 의 attribute 처럼 key = value 형태로 하위 컴포넌트에 props 를 할당한다. */
     </div>
   );
 }
