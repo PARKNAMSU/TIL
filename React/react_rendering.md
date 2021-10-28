@@ -7,6 +7,8 @@ import React from 'react'; // 리액트 사용
 import ReactDOM from 'react-dom'; //리액트 dom으로 랜더링할 때 사용
 ```
 
+<br>
+
 ### 랜더링할 dom 생성
 html 문서에 리액트 엘리먼트가 랜더링할 `<div>` 태그를 생성한다.
   ```html
