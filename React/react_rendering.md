@@ -34,11 +34,15 @@ let App = () => { // 리액트 엘리먼트를 생성할때는 앞글자를 대�
 ### 리액트 엘리먼트 랜더링
 리액트 엘리먼트를 dom에 랜더링 시킨다.
 ```javascript
-ReactDom.render(
+ReactDOM.render(
   <App />,
-  document.getElementById('root');
+  document.getElementById('root')
 )
 ```
+
+<br>
+
+### [Codepen 에서 확인](https://codepen.io/parknamsu/pen/GRvEyav)
 
 <br>참조<br>
 [React 공식문서](https://ko.reactjs.org/docs/rendering-elements.html)
