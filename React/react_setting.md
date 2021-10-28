@@ -28,5 +28,6 @@ $ npm start
 <br>
 
 해당 화면이 나오면 성공<br>
-만약 웹 브라우저가 실행되지 않으면 직접 __localhost:3000__ 을 입력한다.<br>
+만약 웹 브라우저가 실행되지 않으면 직접 __localhost:3000__ 을 입력한다.
+<br><br>
 <img width="1231" alt="완료" src="https://user-images.githubusercontent.com/62639722/139190047-b198666c-7075-419b-98f9-6b2e13d32c61.png">
