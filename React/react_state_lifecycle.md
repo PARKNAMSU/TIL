@@ -93,11 +93,12 @@ ReactDOM.render(<App />,document.getElementById('root'))
 ### 결과
 <img width="1174" alt="스크린샷 2021-10-29 오후 4 41 53" src="https://user-images.githubusercontent.com/62639722/139395657-c46a3ef3-5e6e-4280-9287-02d6d2cd8f4c.png">
 <br>위 클래스 컴포넌트의 실행순서는 아래와 같다.
+
 1. 생성자(constructor) 가 실행된다.
-2. render()함수가 실행되어 컴포넌트를 생성한다.
-3. dom에 마운트되면 componentDidMount 실행된다.
-4. componentDidMount에서 state가 업데이트 되므로 render가 다시 실행된다.
-5. 만약 dom에서 컴포넌트가 삭제되면 componentWillUnmount를 실행한다.
+3. render()함수가 실행되어 컴포넌트를 생성한다.
+4. dom에 마운트되면 componentDidMount 실행된다.
+5. componentDidMount에서 state가 업데이트 되므로 render가 다시 실행된다.
+6. 만약 dom에서 컴포넌트가 삭제되면 componentWillUnmount를 실행한다.
 
 ### [Codepen에서 실행](https://codepen.io/parknamsu/pen/MWvveZv?editors=1111)
 <br>참조<br>
