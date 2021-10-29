@@ -92,7 +92,7 @@ ReactDOM.render(<App />,document.getElementById('root'))
 ```
 ### 결과
 <img width="1174" alt="스크린샷 2021-10-29 오후 4 41 53" src="https://user-images.githubusercontent.com/62639722/139395657-c46a3ef3-5e6e-4280-9287-02d6d2cd8f4c.png">
-<br>위 클래스 컴포넌트의 실행순서는 아래와 같다.
+<br>위 클래스 컴포넌트의 실행순서는 아래와 같다.<br>
 
 1. 생성자(constructor) 가 실행된다.
 3. render()함수가 실행되어 컴포넌트를 생성한다.
