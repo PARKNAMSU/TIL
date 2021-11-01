@@ -10,7 +10,10 @@ app.use('/js',express.static(__dirname+'/js'))
 ```
 
 ### html
-```
+```html
 <!-- 현재 디렉토리/js/app.js의 파일을 지정해놓은 static 경로를 이용하여 http://localhost:3000/js/app.js로 가져옴-->
 <script src="http://localhost:3000/js/app.js"></script>
 ```
+
+<br>참조<br>
+[express 공식문서](https://expressjs.com/ko/starter/static-files.html)
