@@ -12,6 +12,7 @@
 ### Express
 * [개발환경 구축](https://github.com/PARKNAMSU/TIL/blob/main/express/express_setting.md)
 * [기본 라우팅](https://github.com/PARKNAMSU/TIL/blob/main/express/express_routing.md)
+* [정적파일 제공](https://github.com/PARKNAMSU/TIL/blob/main/express/express_static.md)
 
 ### React
 * [개발환경 구축](https://github.com/PARKNAMSU/TIL/blob/main/React/react_setting.md)
