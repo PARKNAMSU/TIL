@@ -12,14 +12,13 @@
 6. 기준값을 기준으로 작은값과 큰값 2개의 문제로 나누어 다시 정렬을 실행한다.
 
 ### example
-'''javascript
 
+```javascript
 let arr = [1,10,9,2,3,5,4,8,7,6];
 
 function quickSort(arr,start,end){ //정렬할 array, start index, end index
     if(start >= end) //start가 end보다 크거나 같으면 실행 취소
         return;
-
     //기준값 key    
     let key = start;
     //기준값보다 큰 값을 찾기위한 left index
@@ -67,7 +66,6 @@ function quickSort(arr,start,end){ //정렬할 array, start index, end index
     quickSort(arr,start,right-1);
     quickSort(arr,right+1,end);
 }
-
 quickSort(arr,0,arr.length-1);
 console.log(arr);
-'''
+```
