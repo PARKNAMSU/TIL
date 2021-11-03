@@ -21,3 +21,6 @@
 * [리액트 Component와 props](https://github.com/PARKNAMSU/TIL/blob/main/React/react_component_props.md)
 * [리액트 class Component](https://github.com/PARKNAMSU/TIL/blob/main/React/react_class_component.md)
 * [리액트 state 와 Lifecyle](https://github.com/PARKNAMSU/TIL/blob/main/React/react_state_lifecycle.md)
+
+### Redux
+* [Redux Introduce](https://github.com/PARKNAMSU/TIL/blob/main/redux/redux_intro.md)
