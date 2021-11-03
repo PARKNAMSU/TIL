@@ -197,3 +197,9 @@ function App() {
 
 export default App;
 ```
+
+<br>
+
+참조<br>
+
+[Redux 공식문서](https://ko.redux.js.org/introduction/getting-started)
