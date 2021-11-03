@@ -9,6 +9,7 @@
 * [Bubble Sort](https://github.com/PARKNAMSU/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/bubble_sort.md)
 * [Insert Sort](https://github.com/PARKNAMSU/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/insert_sort.md)
 * [Quick Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/quick_sort.md)
+* [Merge Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/merge_sort.md)
 
 ### Express
 * [개발환경 구축](https://github.com/PARKNAMSU/TIL/blob/main/express/express_setting.md)
