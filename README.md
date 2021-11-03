@@ -24,3 +24,4 @@
 
 ### Redux
 * [Redux Introduce](https://github.com/PARKNAMSU/TIL/blob/main/redux/redux_intro.md)
+* [개발환경 구축 및 기본 사용법](https://github.com/PARKNAMSU/TIL/blob/main/redux/redux_basic.md)
