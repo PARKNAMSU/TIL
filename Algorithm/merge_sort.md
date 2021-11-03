@@ -91,6 +91,11 @@ let myArr = [10,2,1,5,3,4,7,6,9,8];
 mergeSort(myArr,0,myArr.length-1);
 console.log(myArr);
 ```
+<br>
+
+### 병합 정렬(Merge Sort)의 시간복잡도
+병합 정렬은 퀵 정렬과 마찬가지로 N(logN)의 시간복잡도를 가지고 있지만,<br>
+퀵 정렬은 최악의 경우 시간복잡도가 N(N^2) 가 되는 반면, 병합정렬은 최악의 경우에도 N(logN)을 보장한다.
 
 <br>참조<br>
 [안경잡이 개발자](https://m.blog.naver.com/PostView.naver?blogId=ndb796&logNo=221227934987&navType=by)
