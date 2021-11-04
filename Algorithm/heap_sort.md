@@ -12,7 +12,7 @@
 
 <img width="712" alt="스크린샷 2021-11-04 오후 9 57 13" src="https://user-images.githubusercontent.com/62639722/140317389-30b190c9-9ea8-4d32-9fc9-4bbccd680f9a.png">
 
-위와같이 모든 노드는 자식을 2개이상 가질 수 없다.<br><br>
+위와같이 모든 노드는 자식을 2개를 초과하여 가질 수 없다.<br><br>
 
 * 완전 이진 트리
 
