@@ -12,18 +12,18 @@
 * [Merge Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/merge_sort.md)
 
 ### Express
-* [개발환경 구축](https://github.com/PARKNAMSU/TIL/blob/main/express/express_setting.md)
-* [기본 라우팅](https://github.com/PARKNAMSU/TIL/blob/main/express/express_routing.md)
-* [정적파일 제공](https://github.com/PARKNAMSU/TIL/blob/main/express/express_static.md)
+* [development environment setup](https://github.com/PARKNAMSU/TIL/blob/main/express/express_setting.md)
+* [basic routing](https://github.com/PARKNAMSU/TIL/blob/main/express/express_routing.md)
+* [serving static file](https://github.com/PARKNAMSU/TIL/blob/main/express/express_static.md)
 
 ### React
-* [개발환경 구축](https://github.com/PARKNAMSU/TIL/blob/main/React/react_setting.md)
-* [랜더링](https://github.com/PARKNAMSU/TIL/blob/main/React/react_rendering.md)
-* [Component와 props](https://github.com/PARKNAMSU/TIL/blob/main/React/react_component_props.md)
+* [development environment setup](https://github.com/PARKNAMSU/TIL/blob/main/React/react_setting.md)
+* [rendering](https://github.com/PARKNAMSU/TIL/blob/main/React/react_rendering.md)
+* [Component and props](https://github.com/PARKNAMSU/TIL/blob/main/React/react_component_props.md)
 * [class Component](https://github.com/PARKNAMSU/TIL/blob/main/React/react_class_component.md)
-* [state 와 Lifecyle](https://github.com/PARKNAMSU/TIL/blob/main/React/react_state_lifecycle.md)
-* [이벤트 처리](https://github.com/PARKNAMSU/TIL/blob/main/React/react_event_handle.md)
+* [state and Lifecyle](https://github.com/PARKNAMSU/TIL/blob/main/React/react_state_lifecycle.md)
+* [event handling](https://github.com/PARKNAMSU/TIL/blob/main/React/react_event_handle.md)
 
 ### Redux
 * [Introduce](https://github.com/PARKNAMSU/TIL/blob/main/redux/redux_intro.md)
-* [개발환경 구축 및 기본 사용법](https://github.com/PARKNAMSU/TIL/blob/main/redux/redux_basic.md)
+* [development environment setup and redux basic](https://github.com/PARKNAMSU/TIL/blob/main/redux/redux_basic.md)
