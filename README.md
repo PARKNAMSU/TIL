@@ -10,6 +10,7 @@
 * [Insert Sort](https://github.com/PARKNAMSU/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/insert_sort.md)
 * [Quick Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/quick_sort.md)
 * [Merge Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/merge_sort.md)
+* [Heap Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/heap_sort.md)
 
 ### Express
 * [Development Environment Setup](https://github.com/PARKNAMSU/TIL/blob/main/express/express_setting.md)
