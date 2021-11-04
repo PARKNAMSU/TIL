@@ -1,5 +1,5 @@
 # Today I Learn(TIL)
-[기술블로그](https://nspark.tistory.com/)
+[Engineering Blog](https://nspark.tistory.com/)
 
 <br>
 
@@ -12,18 +12,18 @@
 * [Merge Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/merge_sort.md)
 
 ### Express
-* [development environment setup](https://github.com/PARKNAMSU/TIL/blob/main/express/express_setting.md)
-* [basic routing](https://github.com/PARKNAMSU/TIL/blob/main/express/express_routing.md)
-* [serving static file](https://github.com/PARKNAMSU/TIL/blob/main/express/express_static.md)
+* [Development Environment Setup](https://github.com/PARKNAMSU/TIL/blob/main/express/express_setting.md)
+* [Basic Routing](https://github.com/PARKNAMSU/TIL/blob/main/express/express_routing.md)
+* [Serving Static File](https://github.com/PARKNAMSU/TIL/blob/main/express/express_static.md)
 
 ### React
-* [development environment setup](https://github.com/PARKNAMSU/TIL/blob/main/React/react_setting.md)
-* [rendering](https://github.com/PARKNAMSU/TIL/blob/main/React/react_rendering.md)
-* [Component and props](https://github.com/PARKNAMSU/TIL/blob/main/React/react_component_props.md)
-* [class Component](https://github.com/PARKNAMSU/TIL/blob/main/React/react_class_component.md)
-* [state and Lifecyle](https://github.com/PARKNAMSU/TIL/blob/main/React/react_state_lifecycle.md)
-* [event handling](https://github.com/PARKNAMSU/TIL/blob/main/React/react_event_handle.md)
+* [Development Environment Setup](https://github.com/PARKNAMSU/TIL/blob/main/React/react_setting.md)
+* [Rendering](https://github.com/PARKNAMSU/TIL/blob/main/React/react_rendering.md)
+* [Component and Props](https://github.com/PARKNAMSU/TIL/blob/main/React/react_component_props.md)
+* [Class Component](https://github.com/PARKNAMSU/TIL/blob/main/React/react_class_component.md)
+* [State and Lifecyle](https://github.com/PARKNAMSU/TIL/blob/main/React/react_state_lifecycle.md)
+* [Event handling](https://github.com/PARKNAMSU/TIL/blob/main/React/react_event_handle.md)
 
 ### Redux
 * [Introduce](https://github.com/PARKNAMSU/TIL/blob/main/redux/redux_intro.md)
-* [development environment setup and redux basic](https://github.com/PARKNAMSU/TIL/blob/main/redux/redux_basic.md)
+* [Development Environment Setup and Redux Basic](https://github.com/PARKNAMSU/TIL/blob/main/redux/redux_basic.md)
