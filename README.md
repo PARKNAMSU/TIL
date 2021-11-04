@@ -18,10 +18,11 @@
 
 ### React
 * [개발환경 구축](https://github.com/PARKNAMSU/TIL/blob/main/React/react_setting.md)
-* [리액트 랜더링](https://github.com/PARKNAMSU/TIL/blob/main/React/react_rendering.md)
-* [리액트 Component와 props](https://github.com/PARKNAMSU/TIL/blob/main/React/react_component_props.md)
-* [리액트 class Component](https://github.com/PARKNAMSU/TIL/blob/main/React/react_class_component.md)
-* [리액트 state 와 Lifecyle](https://github.com/PARKNAMSU/TIL/blob/main/React/react_state_lifecycle.md)
+* [랜더링](https://github.com/PARKNAMSU/TIL/blob/main/React/react_rendering.md)
+* [Component와 props](https://github.com/PARKNAMSU/TIL/blob/main/React/react_component_props.md)
+* [class Component](https://github.com/PARKNAMSU/TIL/blob/main/React/react_class_component.md)
+* [state 와 Lifecyle](https://github.com/PARKNAMSU/TIL/blob/main/React/react_state_lifecycle.md)
+* [이벤트 처리](https://github.com/PARKNAMSU/TIL/blob/main/React/react_event_handle.md)
 
 ### Redux
 * [Redux Introduce](https://github.com/PARKNAMSU/TIL/blob/main/redux/redux_intro.md)
