@@ -25,7 +25,7 @@ function myMiddleware(req,res,next){
 
 <br>
 
-```
+```javascirpt
 const express = require('express');
 
 const app = express();
