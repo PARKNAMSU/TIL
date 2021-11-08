@@ -11,6 +11,7 @@
 * [Quick Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/quick_sort.md)
 * [Merge Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/merge_sort.md)
 * [Heap Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/heap_sort.md)
+* [Counting Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/counting_sort.md)
 
 ### Express
 * [Development Environment Setup](https://github.com/PARKNAMSU/TIL/blob/main/express/express_setting.md)
