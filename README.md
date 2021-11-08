@@ -33,4 +33,4 @@
 
 ### Linux
 * [File Auth](https://github.com/PARKNAMSU/TIL/blob/main/linux/file_auth.md)
-* [Envirnment Variable](https://github.com/PARKNAMSU/TIL/blob/main/linux/environment_variable.md)
+* [Environment Variable](https://github.com/PARKNAMSU/TIL/blob/main/linux/environment_variable.md)
