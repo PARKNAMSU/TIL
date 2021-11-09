@@ -12,7 +12,7 @@
 * [Merge Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/merge_sort.md)
 * [Heap Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/heap_sort.md)
 * [Counting Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/counting_sort.md)
-* [BFS](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/bfs.md)
+* [BFS(Breadth First Search)](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/bfs.md)
 
 ### Express
 * [Development Environment Setup](https://github.com/PARKNAMSU/TIL/blob/main/express/express_setting.md)
