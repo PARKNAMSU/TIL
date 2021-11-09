@@ -8,8 +8,7 @@
 1번부터 탐색하여 너비를 우선적으로 탐색한다.
 
 ### example
-```
-
+```javascript
 function bfs(tree,find){
 
     //root 노드를 queue에 추가
