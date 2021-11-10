@@ -1,7 +1,7 @@
 # BFS(Breadth First Search)
 
 ### 너비 우선 탐색(BFS) 이란?
-너비 우선 탐색(BFS)이란 트리구조의 자료를 탐색할 때 너비를 우선적으로 해서 탐색하는 것을 의미한다.<br>
+너비 우선 탐색(BFS)이란 그래프 탐색할 때 너비를 우선적으로 해서 탐색하는 것을 의미한다.<br>
 즉 root node 부터 탐색하여 인접한 노드들을 탐색하는 것을 의미한다.<br>
 
 ![image](https://user-images.githubusercontent.com/62639722/140917995-c0cb3d58-1842-49ff-9dcc-b95fcb15fa0d.png)
