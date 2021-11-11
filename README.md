@@ -38,3 +38,4 @@
 * [Environment Variable](https://github.com/PARKNAMSU/TIL/blob/main/linux/environment_variable.md)
 
 ### RDBMS
+* [MySql Install and Setting](https://github.com/PARKNAMSU/TIL/blob/main/database/rdbms/install_mysql.md)
