@@ -23,3 +23,67 @@ __Undirected Graph 의 구조__
 ![image](https://user-images.githubusercontent.com/62639722/141252696-1d1d4b1a-9c82-47fd-b130-ee3b9c120bbf.png)
 
 Directed Graph에서는 화살표가 향하는 방향으로만 이동이 가능했지만, Undirected Graph는 양방향으로 이동이 가능한 양방향 그래프 이다.
+
+<br>
+
+### 그래프의 표현 방법
+그래프의 표현 방법에는 __이차원 배열__ 과 __연결 리스트__ 방법이 있다.
+
+<br>
+
+### 이차원 배열
+
+이차원 배열 방법은 이차원 배열을 이용하여 각 정점들간 간선으로 연결되어 있는 것을 표현한다.
+
+<br>
+이차원 배열 방법은 공간을 많이 차지하지만 간단하다.
+
+<br>
+
+__구현__
+```
+
+//edge 리스트가 주어지면 해당 edge에 맞게 그래프 생성
+//undirected graph로 생성
+function graph(edge){
+
+    //edge의 값중 가장 큰 위치를 찾음
+    let max = edge.reduce((prev,curr) => {
+        let val = Math.max(curr[0],curr[1])
+        return val > prev ? val:prev;
+    },0);
+
+    //그래프 생성
+    let graph = [];
+
+    //길이가 MAX * MAX인 2차원 배열을 생성
+    for(let i=0; i<=max; i++)
+        graph.push(new Array(max+1).fill(0));
+    
+    //양방향 그래프 이므로 서로의 경로를 추가해줌
+    edge.forEach(item => {
+        graph[item[0]][item[1]] = 1;
+        graph[item[1]][item[0]] = 1;
+    });
+
+    return graph;
+}
+
+let edge = [
+    [0,1],
+    [3,0],
+    [1,4],
+    [2,1],
+    [3,4]
+];
+
+let myGraph = graph(edge);
+
+console.log(myGraph);
+```
+
+<br>
+
+> 결과
+![image](https://user-images.githubusercontent.com/62639722/141255067-4ecd27aa-5a03-4b84-95f2-92f492412842.png)
+
