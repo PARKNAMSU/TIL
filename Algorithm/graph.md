@@ -41,7 +41,7 @@ Directed Graph에서는 화살표가 향하는 방향으로만 이동이 가능�
 <br>
 
 __구현__
-```
+```javascript
 
 //edge 리스트가 주어지면 해당 edge에 맞게 그래프 생성
 //undirected graph로 생성
@@ -85,5 +85,7 @@ console.log(myGraph);
 <br>
 
 > 결과
+
+<br>
 ![image](https://user-images.githubusercontent.com/62639722/141255067-4ecd27aa-5a03-4b84-95f2-92f492412842.png)
 
