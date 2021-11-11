@@ -38,7 +38,7 @@ Directed Graph에서는 화살표가 향하는 방향으로만 이동이 가능�
 <br>
 이차원 배열 방법은 공간을 많이 차지하지만 간단하다.
 
-<br>
+<br><br>
 
 __구현__
 ```javascript
@@ -90,3 +90,56 @@ console.log(myGraph);
 
 ![image](https://user-images.githubusercontent.com/62639722/141255067-4ecd27aa-5a03-4b84-95f2-92f492412842.png)
 
+<br>
+
+### 연결 리스트 
+연결 리스트 방법은 이차원 배열과 반대로 공간은 적게 차지하지만 구현하기 복잡할 수 있다.
+
+<br>
+
+__구현__
+```javascript
+function linkedGraph(edge){
+
+    //최대값
+    let max = edge.reduce((prev,curr) => {
+        let val = Math.max(curr[0],curr[1])
+        return val > prev ? val:prev;
+    },0); 
+    
+    //그래프
+    let graph = [];
+
+    for(let i=0; i<=max; i++)
+        graph.push([]);
+    
+    //그래프의 정점의 간선목록에 연결할 간선을 추가
+    edge.forEach(item => {
+        graph[item[0]].push(item[1]);
+        graph[item[1]].push(item[0]);
+    });
+
+    return graph;
+}
+
+let edge = [
+    [0,1],
+    [3,0],
+    [1,4],
+    [2,1],
+    [3,4]
+];
+
+let myGraph = linkedGraph(edge);
+
+console.log(myGraph);
+```
+
+> 결과
+
+<br>
+
+![image](https://user-images.githubusercontent.com/62639722/141256727-479f8b31-777a-421f-9081-206b23906692.png)
+
+<br>참조<br>
+[zerocho](https://www.zerocho.com/category/Algorithm/post/584b9033580277001862f16c)
