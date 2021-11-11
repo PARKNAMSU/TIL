@@ -87,5 +87,6 @@ console.log(myGraph);
 > 결과
 
 <br>
+
 ![image](https://user-images.githubusercontent.com/62639722/141255067-4ecd27aa-5a03-4b84-95f2-92f492412842.png)
 
