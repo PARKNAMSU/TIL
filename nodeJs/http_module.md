@@ -55,6 +55,21 @@ http.createServer((req,res) => {
 }).listen(5000);
 ```
 
+<br>
 
+### Query String 분할
+url 모듈을 사용하면 query string 을 분할하여 사용할 수 있다.
 
+```javascript
+const http = require('http');
+const url = require('url');
 
+http.createServer((req,res) => {
+  // query string을 분할  
+  let url = url.parse(req.url,true).query;
+  
+  res.writeHead(200,{'Content-Type':'text/html'});
+  res.write('get request and send response!!');
+  res.end();
+}).listen(5000);
+```
