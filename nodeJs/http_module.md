@@ -64,7 +64,7 @@ url 모듈을 사용하면 query string 을 분할하여 사용할 수 있다.
 const http = require('http');
 const url = require('url');
 
-// 'http://localhost@5000/test?name=park&age=25' 로 요청
+// 'http://localhost:5000/test?name=park&age=25' 로 요청
 http.createServer((req,res) => {
   // query string을 분할  
   let url = url.parse(req.url,true).query;
