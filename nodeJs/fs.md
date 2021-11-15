@@ -60,13 +60,14 @@ fs.appendFile(), fs.writeFile(), fs.open()을 이용하여 파일을 생성할 �
   * r+ : 읽기/쓰기로 열기, 파일 존재하지 않을 시 에러
   * w : 쓰기로 열기, 파일 존재하지 않을 시 생성되고 존재 시 덮어쓰기
   * w+ : 읽기/쓰기로 열기, 파일 존재하지 않을 시 생성되고 존재 시 덮어쓰기
-  * a : 쓰기로 열기, 파일 존재하지 않을 시 생성되고 존재 시 내용 추가
-  * a+ : 읽기/쓰기로 열기, 파일 존재하지 않을 시 생성되고 존재 시 내용 추가
+  * a : 추가 쓰기로 열기, 파일 존재하지 않을 시 생성
+  * a+ : 읽기/추가 쓰기로 열기, 파일 존재하지 않을 시 생성
 
+<br>
 
 __appendFile, writeFile__
 ``` javascript
-var fs = require('fs');
+const fs = require('fs');
 
 function appendFile(fileName,fileText){
   fs.appendFile(fileName,fileText,(err) => console.log("append!!"));
@@ -79,3 +80,26 @@ function writeFile(fileName,fileText){
 appendFile('text1.txt','파일을 append 하였습니다.');
 writeFile('text2.txt','파일을 write 하였습니다.');
 ```
+
+<br>
+
+__open__
+```javascript
+const fs = require('fs');
+
+//openFile은 빈 파일이 생성됨
+function openFile(fileName){
+  fs.open(fileName,'w',(err,file) => console.log("open!!"));
+};
+
+openFile('text3.txt');
+```
+
+<br>
+
+### Update File
+create 했을때 사용했던 appendFile, writeFile을 이용하여 파일 내용을 변경할 수 있다.
+
+<br>
+
+### ...
