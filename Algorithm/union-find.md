@@ -41,3 +41,37 @@ Union-Find 알고리즘은 대표적인 그래프 알고리즘 으로 합집합�
 <br>
 
 ### example
+
+```javascript
+
+function findParent(graph,num1,num2){
+
+    //그래프의 Root를 찾는 함수
+    function getParent(graph,num){
+        //부모가 자기자신인 경우 Root이므로 자신 리턴하며 재귀의 종료
+        if(graph[num] === num)
+            return num;
+        //부모를 찾을때 까지 재귀함수로 부모 노드를 전달
+        let root = getParent(graph,graph[num]);
+        return root;
+    }
+
+    //1번째 노드와 2번째 노드를 탐색
+    let root1 = getParent(graph,num1);
+    let root2 = getParent(graph,num2);
+
+    return root1 === root2;
+}
+
+// 1,2,3 이 연결되어 있고, 4,5,6이 연결되어 있는 그래프 생성
+let graph = [-1,1,1,2,4,4,5];
+
+//true
+console.log(`1과 3은 같은 노드입니까? ${findParent(graph,1,3)}`);
+//false
+console.log(`1과 5는 같은 노드입니까? ${findParent(graph,1,5)}`);
+```
+
+<br>
+
+참조: [안경잡이 개발자](https://m.blog.naver.com/PostView.naver?blogId=ndb796&logNo=221230967614&navType=by)
