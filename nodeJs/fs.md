@@ -49,3 +49,11 @@ http.createServer(function (req, res) {
   });
 }).listen(5000);
 ```
+<br>
+
+### Write File
+fs.appendFile(), fs.writeFile(), fs.open()을 이용하여 파일을 생성할 수 있다.
+* appendFile : 파일이 있는 경우 해당파일에 내용을 추가시킨다.
+* writeFile : 파일이 있는 경우 해당파일에 내용을 덮어쓴다.
+* open : r,+r, w, +w, a, +a 같은 다양한 모드들이 존재
+* * r : 
