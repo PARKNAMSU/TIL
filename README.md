@@ -15,6 +15,7 @@
 * [Graph](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/graph.md)
 * [BFS(Breadth First Search)](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/bfs.md)
 * [DFS(Depth First Search)](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/dfs.md)
+* [Union-Find](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/union-find.md)
 
 ### NodeJS
 * [module](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_module.md)
