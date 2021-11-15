@@ -40,10 +40,12 @@ var http = require('http');
 var fs = require('fs');
 
 http.createServer(function (req, res) {
+  //1번째 인자로 파일의 경로/이름 , 2번째 인자로 데이터를 가져오고 실행 할 콜백함수를 실행
   fs.readFile('info.json', function(err, data) {
     res.writeHead(200, {'Content-Type': 'application/json'});
+    //받아온 데이터를 클라이언트에 write
     res.write(data.toString());
     return res.end();
   });
-}).listen(8080);
+}).listen(5000);
 ```
