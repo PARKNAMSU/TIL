@@ -132,3 +132,26 @@ function renameFile(fileName,chgName){
   });
 }
 ```
+
+### Directory 생성
+만약, 특정한 경로에 파일을 생성하고 싶은데 폴더가 존재하지 않을 경우에는 mkdirSync 메서드를 이용할 수 있다.
+```javascript
+const fs = require('fs');
+
+function appendFile(fileName,fileText){
+
+  fs.appendFile(fileName,fileText,(err) => {
+    // 위치가 존재하지 않을 경우
+    if(err){
+      //파일 이름을 제거하고 디렉터리명만 추출
+      let dirArr = fileName.split("/");
+      let a = dirArr.slice(0,dirArr.length-1).join("/");
+      //폴더명을 전달하고 recursive를 true로 설정 후 전달
+      fs.mkdirSync(a,  { recursive: true });
+      //해당 디렉터리에 다시 파일 생성
+      fs.appendFile(fileName,fileText,(err) => {});
+    }
+    console.log("append!!")
+  });
+}
+```
