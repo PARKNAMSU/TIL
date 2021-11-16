@@ -155,3 +155,7 @@ function appendFile(fileName,fileText){
   });
 }
 ```
+
+<br>
+
+참조: [w3school](https://www.w3schools.com/nodejs/nodejs_filesystem.asp)
