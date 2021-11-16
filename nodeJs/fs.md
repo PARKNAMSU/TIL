@@ -14,7 +14,7 @@ const fs = require('fs');
 * Create File
 * Update File
 * Delete File
-* Change Name of File
+* Rename File
 
 <br>
 
@@ -89,7 +89,7 @@ const fs = require('fs');
 
 //openFile은 빈 파일이 생성됨
 function openFile(fileName){
-  fs.open(fileName,'w',(err,file) => console.log("open!!"));
+  fs.open(fileName,'w',(err,file) => console.log("opened!!"));
 };
 
 openFile('text3.txt');
@@ -102,4 +102,33 @@ create 했을때 사용했던 appendFile, writeFile을 이용하여 파일 내�
 
 <br>
 
-### ...
+### Delete File
+unlink 메서드를 이용하여 파일을 삭제할 수 있다.
+```javascript
+const fs = require('fs');
+
+function deleteFile(fileName){
+  fs.unlink(fileName,(err) => {
+    if(err)
+      throw err;
+    console.log('deleted!!');
+  });
+}
+```
+
+<br>
+
+### Rename File
+rename 을 이용하여 파일의 이름을 변경할 수 있다.
+```javascript
+const fs = require('fs');
+
+function renameFile(fileName,chgName){
+  // 현재 파일, 바꿀 파일이름, 콜백함수
+  fs.rename(fileName,chgName,(err) => {
+    if(err)
+      throw err;
+    console.log('renamed!!');
+  });
+}
+```
