@@ -21,6 +21,7 @@
 * [Module](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_module.md)
 * [HTTP](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_module.md) 
 * [File System](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/fs.md)
+* [Nodemailer](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/mail.md)
 
 ### Express
 * [Development Environment Setup](https://github.com/PARKNAMSU/TIL/blob/main/express/express_setting.md)
