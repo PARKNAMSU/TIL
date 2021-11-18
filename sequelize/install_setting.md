@@ -4,9 +4,9 @@
 
 Sequelize란, Postgres, MySQL, MariaDB, SQLite등 SQL Server 의 Promise기반 Node.js ORM(Object Relational Mapping) 이다.
 
-> ORM(Object Relational Mapping) 이란?
-
 <br>
+
+> ORM(Object Relational Mapping) 이란?
 
 ORM은 객체 데이터 타입과 데이터베이스의 데이터 들을 자동으로 Mapping 시켜주는것을 말한다.
 
