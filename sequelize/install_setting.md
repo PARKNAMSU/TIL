@@ -97,7 +97,7 @@ const connectCk =  async () => {
 
 const disConnect = async () => {
     try {
-        sequelize.close();
+        await sequelize.close();
         console.log("연결 해제!!");
     }catch(err) {
         console.log(err)
