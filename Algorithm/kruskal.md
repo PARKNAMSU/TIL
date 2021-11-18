@@ -9,4 +9,4 @@ Kruskal Algorithm은 비용을 계산해야 하기 때문에 가중치 그래프
 
 가중치 그래프는 그래프의 간선에 가중치(비용,거리 등)을 추가한 그래프를 말한다.
 
-<img width="438" alt="스크린샷 2021-11-04 오후 10 15 34" src="https://m.blog.naver.com/ndb796/221230994142?view=img_1">
+<img width="438" alt="스크린샷 2021-11-04 오후 10 15 34" src="https://m.blog.naver.com/PostView.naver?blogId=ndb796&logNo=221230994142&navType=by&view=img_1">
