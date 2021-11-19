@@ -139,3 +139,16 @@ DataTypes.DATE       // DATETIME for mysql / sqlite, TIMESTAMP WITH TIME ZONE fo
 DataTypes.DATE(6)    // DATETIME(6) for mysql 5.6.4+. Fractional seconds support with up to 6 digits of precision
 DataTypes.DATEONLY   // DATE without time
 ```
+
+#### UUID
+UUID는 mysql에서 char(36)의 데이터 타입이다. sequelize는 암호화에 사용되는 UUID를 자동으로 생성할 수 있다.
+```
+{
+  type: DataTypes.UUID,
+  defaultValue: DataTypes.UUIDV4 // Or DataTypes.UUIDV1
+}
+```
+
+<br>
+
+### ...
