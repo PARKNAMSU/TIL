@@ -179,3 +179,7 @@ const kruskal = () => {
     return sum;
 }
 ```
+
+<br>
+
+참조 : [안경잡이 개발자](https://m.blog.naver.com/PostView.naver?blogId=ndb796&logNo=221230994142&navType=by)
