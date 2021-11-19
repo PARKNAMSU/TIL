@@ -16,6 +16,7 @@
 * [BFS(Breadth First Search)](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/bfs.md)
 * [DFS(Depth First Search)](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/dfs.md)
 * [Union-Find](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/union-find.md)
+* [Kruskal Algorithm](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/kruskal.md)
 
 ### NodeJS
 * [Module](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_module.md)
