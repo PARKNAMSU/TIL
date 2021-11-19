@@ -19,7 +19,7 @@ Kruskal Algorithm의 진행 순서는 아래와 같다.
 <br>
 
 1. 가중치 그래프를 생성한다.
-```javascirpt
+```javascript
 //간선 class
 class Edge {
 
