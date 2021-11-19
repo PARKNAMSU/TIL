@@ -62,7 +62,7 @@ sync 메서드는 아래와 같은 옵션을 가지고 있다.
 * Model.sync({ force:true }) : 해당 모델의 테이블이 이미 존재하는 경우 테이블을 삭제하고 재생성한다.
 * Model.sync({ alter:true }) : 해당 모델의 테이블이 이미 존재하는 경우 테이블의 상태를 확인하여 모델의 상태와 일치시킨다.
 
-```
+```javascript
 const setup = async () => {
     try {
         //User.sync()를 통해 데이터베이스에 User에서 정의한 테이블을 생성
@@ -76,7 +76,7 @@ const setup = async () => {
 <br>
 
 정의한 모든 모델을 db에 동기화 하기 위해서는 sequelize.sync()를 사용한다.
-```
+```javascript
 await sequelize.sync();
 ```
 
