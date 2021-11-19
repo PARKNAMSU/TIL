@@ -80,7 +80,7 @@ const disConnect = async () => {
 ```javascript
 const { Sequelize } = require('sequelize');
 
-let sequelize = new Sequelize('test', 'root', 'slek4173', {
+let sequelize = new Sequelize('database', 'user', 'password', {
         host: 'localhost',
         dialect:'mysql'
     });
