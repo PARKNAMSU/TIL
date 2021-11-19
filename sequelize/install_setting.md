@@ -37,7 +37,7 @@ const { Sequelize } = require('sequelize');
     using database
   }
 */
-let sequelize = new Sequelize('database', 'root', 'password', {
+let sequelize = new Sequelize('database', 'user', 'password', {
         host: 'localhost',
         dialect:'mysql'
     });
