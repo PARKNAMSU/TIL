@@ -151,4 +151,19 @@ UUID는 mysql에서 char(36)의 데이터 타입이다. sequelize는 암호화�
 
 <br>
 
-### ...
+### Column Options
+Column Options는 컬럼의 타입, 제약조건, 기본값 등을 설정할 수 있다.
+
+* type : DataTypes를 이용하여 컬럼의 타입 지정
+* defaultValue : 컬럼의 데이터가 없을경우 기본 데이터를 설정
+* allowNull : boolean 형으로 컬럼의 null값 허용여부 설정
+* primaryKey : boolean 형으로 해당 컬럼의 기본키 여부 설정
+* autoIncreament : boolean 형으로 true 설정 시 row 삽입시 마다 해당 테이블의 해당 컬럼의 가장 큰 값보다 1 증가한 값이 삽입됨
+* unique : 해당 컬럼의 값이 해당 테이블 에서 유일한 값으로 설정
+* references : 해당 컬럼이 참조하는 모델(테이블)과 컬럼을 지정
+        * model : 참조하는 모델
+        * key : 참조하는 컬럼
+
+<br>
+
+참조 : [sequelize 공식문서](https://sequelize.org/master/manual/model-basics.html)
