@@ -161,6 +161,7 @@ Column Options는 컬럼의 타입, 제약조건, 기본값 등을 설정할 수
 * autoIncreament : boolean 형으로 true 설정 시 row 삽입시 마다 해당 테이블의 해당 컬럼의 가장 큰 값보다 1 증가한 값이 삽입됨
 * unique : 해당 컬럼의 값이 해당 테이블 에서 유일한 값으로 설정
 * references : 해당 컬럼이 참조하는 모델(테이블)과 컬럼을 지정
+
         * model : 참조하는 모델
         * key : 참조하는 컬럼
 
