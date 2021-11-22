@@ -55,6 +55,7 @@ const https = require('https');
 const fs = require('fs');
 
 const app = express();
+const port = 4000;
 
 https.createServer(
   {
@@ -62,7 +63,7 @@ https.createServer(
     cert: fs.readFileSync(__dirname + '/cert.pem', 'utf-8'),
   },
   app
-);
+).listen(port);
 ```
 
 <br>
