@@ -141,7 +141,7 @@ await steve.save({
 ### Instace Increament
 __increament__를 이용하여 Instance의 값을 증가시킬 수 있다.
 
-```
+```javascript
 //cash의 값이 5로 설정되는것이 아닌 5가 증가한다.
 await steve.increament('cash',{by:5});
 ```
