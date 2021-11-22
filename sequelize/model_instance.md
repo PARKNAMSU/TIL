@@ -117,7 +117,6 @@ await steve.update({
 ### Instance 일부만 저장
 
 save시 fields 속성을 이용하여 일부 컬럼만 db에 저장할 수 있다.
-
 ```javascript
 //build 이용하여 steve 인스턴스 생성
 let steve = await User.create({
