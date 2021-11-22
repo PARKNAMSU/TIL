@@ -29,6 +29,8 @@ User.init({
 });
 ```
 
+<br>
+
 ### Model Create
 Sequelize Model의 인스턴스를 만들 때 new 연산자가 아닌 __.build__ 를 이용하여 생성한다.<br>
 
@@ -46,6 +48,7 @@ await steve.save();
 console.log(`${steve.lastName} was saved!!`);
 ```
 
+<br>
 __create__ 를 이용하여 위 두 작업을 동시에 할 수 있음
 
 ```javascript
@@ -57,6 +60,12 @@ let steve = User.create({
 });
 ```
 
+<br>
+인스턴스에는 데이터 정보 말고 다양한 프로퍼티들이 있는데, __instance.toJSON()__ 을 이용하면 인스턴스 데이터의 정보만 볼 수 있음
+
+```javascript
+let log = steve.toJSON();
+```
 
 
 
