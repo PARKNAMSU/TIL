@@ -43,3 +43,28 @@ mkcert -install
 ```
 mkcert -key-file key.pem -cert-file cert.pem localhost 127.0.0.1 ::1
 ```
+
+<br>
+
+### HTTPS 서버 작성
+https 모듈을 사용하여 https 프로토콜을 사용하는 서버를 생성한다.
+
+```javascript
+const express = require('express');
+const https = require('https');
+const fs = require('fs');
+
+const app = express();
+
+https.createServer(
+  {
+    key: fs.readFileSync(__dirname + '/key.pem', 'utf-8'),
+    cert: fs.readFileSync(__dirname + '/cert.pem', 'utf-8'),
+  },
+  app
+);
+```
+
+<br>
+
+참조 : [codestate](https://codestates.com/)
