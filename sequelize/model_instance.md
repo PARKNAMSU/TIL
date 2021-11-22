@@ -98,7 +98,8 @@ steve.save()
 
 <br>
 __update__를 이용하면 위 두작업을 한번에 할 수 있음
-```
+
+```javascript
 let steve = await User.create({
     email:'llee@gmail.com',
     password:'1234',
@@ -112,11 +113,13 @@ await steve.update({
 })
 ```
 
+
 <br>
 
 ### Instance 일부만 저장
 
 save시 fields 속성을 이용하여 일부 컬럼만 db에 저장할 수 있다.
+
 ```javascript
 //build 이용하여 steve 인스턴스 생성
 let steve = await User.create({
