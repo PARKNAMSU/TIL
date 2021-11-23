@@ -66,4 +66,29 @@ const cookieParser = require('cookie-parser');
 const app = express();
 
 app.use(cookieParser());
+
 ```
+
+<br>
+
+요청을 받으면 cookie를 등록해 준다.
+
+```
+// body 로 text 전송
+app.post('/login',(req,res) => {
+  if(req.cookies.data === undefined){
+    res.cookie('data',req.body,{
+      maxAge: 1000 * 60, // 60분 지속
+      path:'/', // path를 '/'로 설정
+      secure:true, // https서버에서만 쿠키 접근
+      sameSite:'none', // cross-origin에서도 쿠키 접근 가능
+      httpOnly:true // javascript에서는 쿠키 접근 불가능
+    })
+    res.status(200).send();
+  }
+});
+```
+
+<br>
+
+참조 : [codestate](https://codestates.com/)
