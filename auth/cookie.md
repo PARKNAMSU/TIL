@@ -73,7 +73,7 @@ app.use(cookieParser());
 
 요청을 받으면 cookie를 등록해 준다.
 
-```
+```javascript
 // body 로 text 전송
 app.post('/login',(req,res) => {
   if(req.cookies.data === undefined){
