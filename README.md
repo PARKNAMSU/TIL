@@ -56,4 +56,4 @@
 * [Model Instace](https://github.com/PARKNAMSU/TIL/blob/main/sequelize/model_instance.md)
 
 ### Auth
-* [Https](https://github.com/PARKNAMSU/TIL/blob/main/auth/https.md)
+* [HTTPS](https://github.com/PARKNAMSU/TIL/blob/main/auth/https.md)
