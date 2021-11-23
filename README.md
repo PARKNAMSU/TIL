@@ -54,3 +54,6 @@
 * [Install and Setting](https://github.com/PARKNAMSU/TIL/blob/main/sequelize/install_setting.md)
 * [Model Basic](https://github.com/PARKNAMSU/TIL/blob/main/sequelize/model_basic.md)
 * [Model Instace](https://github.com/PARKNAMSU/TIL/blob/main/sequelize/model_instance.md)
+
+### Auth
+* [Https]()
