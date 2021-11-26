@@ -26,7 +26,7 @@ npm i express-session
 
 서버에 express-session을 require한 후 use를 이용해 사용한다.
 
-```
+```javascript
 const express = require('express');
 const app = express();
 const session = require('express-session');	// express-session
