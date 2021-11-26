@@ -54,6 +54,52 @@ app.use(session({
 npm i session-file-store
 ```
 
+<br>
+
+session-file-store를 require하여 사용한다.
+
+```javascript
+const express = require('express');
+const app = express();
+const session = require('express-session');	// express-session
+const SessionStore = require('session-file-store')(session);
+
+app.use(session({
+  httpOnly: true,	//javascript 에서 session cookie 사용을 사용할 수 없도록 한다.
+  secure: ture,	//https 서버 환경에서만 session 정보를 주고받도록 처리한다.
+  secret: 'secret key',	//암호화하는 데 쓰일 키
+  resave: false,	//세션을 언제나 저장할지 설정함
+  saveUninitialized: true,	//세션이 저장되기 전 uninitialized 상태로 미리 만들어 저장
+  store: new SessionStore(), // new 연산자를 사용해 SessionStore를 store 프로퍼티의 값으로 전달
+  cookie: {	//세션 쿠키 설정 (세션 관리 시 클라이언트에 보내는 쿠키)
+    httpOnly: true,
+    Secure: true,
+    maxAge: 60000 
+  }
+}));
+```
+
+<br>
+
+서버에서 session에 접근하는 방법은 req.session으로 접근할 수 있다.
+
+```javascript
+app.post('/login',(req,res) => {
+  let data = req.body;
+  if(data.userId && !req.session.userId){
+    req.session.userId = data.userId;
+  }
+  res.send({id:req.session.id}); // 서버에서 식별 가능한 session id 전달
+})
+```
+
+<br>
+
+참조 <br>
+
+[codestate](https://codestates.com/)
+
+
 
 
 
