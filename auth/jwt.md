@@ -45,7 +45,19 @@ JWT는 .으로 나누어진 3가지 부분이 존재한다. <br>
   "typ": "JWT"
 }
 ```
-Header 는 토큰의 종류와 어떠한 알고리즘으로 암호화 되어있는지가 적혀있다.
-3. Payload
-4. Signature
+Header 는 토큰의 종류와 어떠한 알고리즘으로 암호화 되어있는지가 담겨있다. <br>
+
+2. Payload
+```
+{
+  "name":"Son Heungmin"
+  "age":25
+}
+```
+Payload에는 암호화 된 정보들이 담겨있다. <br>
+
+3. Signature
+header 와 payload를 비밀키와 함께 암호화한 데이터가 담겨져 있다.
+
+
 
