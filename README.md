@@ -58,3 +58,4 @@
 ### Auth
 * [HTTPS](https://github.com/PARKNAMSU/TIL/blob/main/auth/https.md)
 * [Cookie](https://github.com/PARKNAMSU/TIL/blob/main/auth/cookie.md)
+* [Session](https://github.com/PARKNAMSU/TIL/blob/main/auth/session.md)
