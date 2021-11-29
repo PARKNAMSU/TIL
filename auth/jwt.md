@@ -31,3 +31,21 @@ Access Token의 유효기간이 끝나면 Refresh Token을 이용하여 Access T
 
 하지만 Refresh Token마저 강탈당할 경우 사용자의 정보가 마음대로 사용될 수 있기때문에,
 정보를 지키는 것이 매우 중요한( __ex 인터넷 뱅킹__ ) 곳은 JWT를 잘 사용하지 않는다.
+
+<br>
+
+### JWT 구조
+
+JWT는 .으로 나누어진 3가지 부분이 존재한다. <br>
+
+1. Header
+```
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+```
+Header 는 토큰의 종류와 어떠한 알고리즘으로 암호화 되어있는지가 적혀있다.
+3. Payload
+4. Signature
+
