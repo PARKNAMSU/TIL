@@ -12,7 +12,7 @@ npm install jsonwebtoken
 ### 서버에서 JWT 토큰 사용
 require를 이용해 설치한 모듈을 불러오고, 서버에서 인증을 위해 jwt 토큰을 사용한다.
 
-```
+```javascript
 const jwt = require('jsonwebtoken');
 const express = require('express');
 const app = express();
@@ -33,7 +33,7 @@ app.post('/login/:id',(req,res) => {
 <br>
 
 db를 사용하지 않으므로 dummy데이터 만들어서 사용한다.(프로젝트 진행 시 database 사용)
-```
+```javascript
 /*
   {
     id,
