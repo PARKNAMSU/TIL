@@ -49,11 +49,11 @@ app.post('/login/:id', (req, res) => {
     let id = req.params.id;
     let pass = req.body;
 
-    dummy.find(item => {
+    let find = dummy.find(item => {
         return item.id === id && item.password === pass;
     });
 
-    if (dummy) {
+    if (find) {
         //jwt.sign을 이용하여 토큰 생성
         let token = jwt.sign({
             type: 'JWT', // token type이 Jwt 임을 명시
