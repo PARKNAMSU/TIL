@@ -38,4 +38,11 @@
 클라우드 서비스의 형태는 Saas, Paas, Iaas 3가지가 존재한다.
 
 * Saas : Software as a Service 의 약지로, 클라우드 제공자가 당장 사용 가능한 소프트웨어를 제공하는 것을 말한다.<br>ex) Netflix, Spotify ...
-* Paas : Platform as a Service 의 약자로, 클라우드 제공자가 데이터베이스, 개발 플랫폼 까지를 제공한다.
+
+* Paas : Platform as a Service 의 약자로, 클라우드 제공자가 데이터베이스, 개발 플랫폼 까지를 제공한다.<br>ex)Oracle Cloud, Google App Engine ...
+
+* Iaas : Infrastructure as a Service 의 약자로, 클라우드 제공자가 가상 컴퓨터 까지 제공한다.<br>ex)AWS, Microsoft Azure
+
+<br>
+
+참조 : [codestate](https://codestates.com/)
