@@ -65,4 +65,59 @@ EC2에 접속하면 인스턴스 시작을 클릭한다.
 
 <br>
 
+인스턴스 접속이 완료되었다.
+![image](https://user-images.githubusercontent.com/62639722/144194451-96fc0b71-8871-4f97-aedd-d1a7938eb07b.png)
+
+<br>
+
+### 인스턴스 개발 환경 세팅(node.js)
+
+패키지 정보를 최신 상태로 유지한다.
+```
+sudo apt update
+```
+
+[nvm 메뉴얼](https://github.com/nvm-sh/nvm) 에 따라 nvm 설치 후 설치 버전으로 설치 확인한다.
+```
+nvm --version
+```
+
+node.js를 설치한다.
+```
+nvm install node 
+```
+
+npm 명령어가 정상적으로 입력되지 않을 수 있으므로 아래 내용을 터미널에 입력한다.
+```
+sudo apt install npm
+```
+
+### GitHub에서 프로젝트 Clone
+
+자신의 GitHub 주소로 이동하여 인스턴스에 해당 프로젝트를 클론한다.(ssh 등록이 필요한 경우 ssh를 등록한다.)
+
+clone 이 완료되면 sudo 를 이용하여 서버를 실행한다.
+![image](https://user-images.githubusercontent.com/62639722/144196133-32f25e42-a18e-4c27-a85c-89f4842128a7.png)
+
+<br>
+
+### 보안 설정
+
+서버 실행은 완료 되었지만 보안 설정이 안되어 있으므로 좌측 탭에서 보안그룹으로 이동한다.
+![image](https://user-images.githubusercontent.com/62639722/144196475-8391eaa1-47aa-400a-b9f7-695abe85e50c.png)
+
+<br>
+
+인스턴스에서 자신의 인스턴스의 보안그룹 이름을 확인 후 해당 보안을 선택하여 인바운드 규칙 편집을 클릭한다.
+![image](https://user-images.githubusercontent.com/62639722/144197024-2db8deda-147a-4f46-9f3e-a9875e81aa06.png)
+
+<br>
+
+규칙추가 -> http -> AnyWhere IPv4 를 진행한 후 규칙저장을 클릭한다.
+![image](https://user-images.githubusercontent.com/62639722/144197412-3cbad00a-dae9-4de9-9d5b-150f53871c10.png)
+
+<br>
+
+퍼블릭 IPv4 DNS 주소에 접속하여 서버가 잘 동작하는지 확인한다.
+![image](https://user-images.githubusercontent.com/62639722/144197715-c70734ac-0087-487f-91e5-7cb1ab949f55.png)
 
