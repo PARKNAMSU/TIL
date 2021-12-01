@@ -45,4 +45,11 @@
 
 <br>
 
+### AWS
+AWS는 Amazon Web Service 의 약자로 아마존에서 제공하는 클라우드 서비스이다.
+
+AWS는 클라우드로 Computing, Network, Storage, DataBase 서비스 등 웹 서비스 개발 및 배포등에 필요한 다양한 제품들을 제공하고 있다.
+
+<br>
+
 참조 : [codestate](https://codestates.com/)
