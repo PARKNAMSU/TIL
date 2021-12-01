@@ -55,3 +55,14 @@ EC2에 접속하면 인스턴스 시작을 클릭한다.
 
 ### Instance 연결
 
+인스턴스 탭으로 돌아와서 생성한 인스턴스 선택 후 연결을 클릭한다.
+![image](https://user-images.githubusercontent.com/62639722/144193326-383a8071-1633-4006-a3a0-a4526afcb38e.png)
+
+<br>
+
+해당 메뉴얼에 따라 연결을 진행한다.(pem 파일 권한 400 으로 변경 후 ssh명령어를 이용해 가상 머신 접속)
+![image](https://user-images.githubusercontent.com/62639722/144193689-903acb6f-ae9e-4ec1-b47f-cb68b24e959a.png)
+
+<br>
+
+
