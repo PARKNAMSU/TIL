@@ -41,3 +41,12 @@ Model.findAll({
 });
 ```
 
+exclude 옵션을 사용하면 include와는 반대로 전체 컬럼에서 해당 컬럼을 제외하고 가져올 수 있다.
+```
+Model.findAll({
+  attribute:{
+    //전체 컬럼에서 a 컬럼만 제외
+    exclude:['a']
+  }
+});
+```
