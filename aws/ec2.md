@@ -121,3 +121,42 @@ clone 이 완료되면 sudo 를 이용하여 서버를 실행한다.
 퍼블릭 IPv4 DNS 주소에 접속하여 서버가 잘 동작하는지 확인한다.
 ![image](https://user-images.githubusercontent.com/62639722/144197715-c70734ac-0087-487f-91e5-7cb1ab949f55.png)
 
+### PM2 모듈로 서버를 background에서 실행
+
+서버를 가상 인스턴스에서 성공적으로 실행시켰지만 만약 로컬 터미널 강제 종료 시 ssh 프로세스가 종료되면서 인스턴스의 노드가 종료되므로 서버도 같이 다운된다.
+
+PM2 모듈울 설치하면 서버를 background 에서 실행할 수 있게 만들어 터미널을 종료해도 Instance가 실행중이면 서버가 다운되지 않게 할 수 있다.
+
+서버 폴더에서 npm install로 pm2를 설치한다.
+```
+npm install pm2 -g
+```
+
+pm2에 관리자 권한을 주기 위해 authbind를 추가로 설치한다.
+```
+sudo apt-get update
+
+sudo apt-get install authbind
+
+sudo touch /etc/authbind/byport/80
+
+sudo chown ubuntu /etc/authbind/byport/80
+
+sudo chmod 755 /etc/authbind/byport/80
+
+authbind --deep pm2 update
+```
+
+pm2에 관리자 권한을 주어 서버를 실행시킨다.
+```
+authbind --deep pm2 start app.js
+```
+
+서버가 잘 실행되었으면 status가 online 상태로 되어있다.
+![image](https://user-images.githubusercontent.com/62639722/144200268-a2ff3bc3-a63f-4e95-9b2d-f15b3d965069.png)
+
+<br>
+
+참조 <br>
+[codestate](https://codestates.com/)
+[aws](https://aws.amazon.com/ko/console/)
