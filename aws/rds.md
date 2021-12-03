@@ -49,4 +49,39 @@ aws에 로그인을 하고 검색창에 RDS를 입력하여 진입한 후 데이
 
 완료 시 데이터베이스 탭에 들어오면 상태가 생성중으로 되어있고, 생성완료가 되면 db사용이 가능하고, 생성완료까지 10분정도 소요된다.
 
-![image](https://user-images.githubusercontent.com/62639722/144597999-f580071f-100d-4840-aa80-1442af726b2e.png)
+![image](https://user-images.githubusercontent.com/62639722/144601266-d09ed85b-884a-4411-882e-ac233a6b4b56.png)
+
+<br>
+
+### DB 생성 확인
+
+생성이 완료되면 DB 식별자를 클릭한다.
+
+![image](https://user-images.githubusercontent.com/62639722/144601392-dd73fde2-f895-49eb-bb2b-8e7bfca72f53.png)
+
+<br>
+
+엔드포인트의 내용을 복사한다.
+
+![image](https://user-images.githubusercontent.com/62639722/144601602-f8baaba5-9914-4126-a8ba-17c4d66f3610.png)
+
+<br>
+
+server host에 복사한 엔드포인트 내용, username에 생성한 마스터이름, password에 마스터 비밀번호, port에 설정한 포트번호를 입력한다.<br>
+여기서는 dbeaver 툴을 사용하였다.
+
+![image](https://user-images.githubusercontent.com/62639722/144602116-64bae167-b91b-4163-9d12-d51c4d2a6bff.png)
+
+<br>
+
+db연결 성공!<br>
+만약 db연결에 실패한다면 VPC 보안그룹의 인바운드 규칙을 확인한다. [aws 공식문서 참조](https://aws.amazon.com/ko/premiumsupport/knowledge-center/rds-cannot-connect/)
+
+![image](https://user-images.githubusercontent.com/62639722/144602335-032e7735-3edd-4436-8e43-8c57cd84835a.png)
+
+<br>
+
+## 참조
+
+[codestate](https://codestates.com/)
+
