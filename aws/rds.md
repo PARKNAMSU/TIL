@@ -26,3 +26,27 @@ aws에 로그인을 하고 검색창에 RDS를 입력하여 진입한 후 데이
 무료 인스턴스를 원할 시 프리티어를 사용한다.
 
 ![image](https://user-images.githubusercontent.com/62639722/144596994-1c7af30a-6d61-470c-92d0-4c6b80604091.png)
+
+<br>
+
+설정에서 db 인스턴스 식별자, 마스터 사용자 이름, 비밀번호를 입력한다.
+
+![image](https://user-images.githubusercontent.com/62639722/144597220-d38a2f45-d536-4a97-be53-a48bd693da1f.png)
+
+<br>
+
+스크롤을 내려 퍼블릭 액세스를 _예_ 로 변경 및 기존의 보안그룹이 있으면 선택, 없다면 새로 생성 후 포트를 입력한다.
+
+![image](https://user-images.githubusercontent.com/62639722/144597617-2611d563-8c01-4290-9c86-de3cc18f1fad.png)
+
+<br>
+
+추가구성에서 초기 데이터베이스 이름 입력 및 옵션들을 설정한다.
+
+![image](https://user-images.githubusercontent.com/62639722/144597822-615fedbd-01fd-4b0b-b8c1-e3e394156ade.png)
+
+<br>
+
+완료 시 데이터베이스 탭에 들어오면 상태가 생성중으로 되어있고, 생성완료가 되면 db사용이 가능하고, 생성완료까지 10분정도 소요된다.
+
+![image](https://user-images.githubusercontent.com/62639722/144597999-f580071f-100d-4840-aa80-1442af726b2e.png)
