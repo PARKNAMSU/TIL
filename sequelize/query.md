@@ -127,4 +127,24 @@ User.findAll({
 
 <br>
 
-[sequelize 공식문서](https://sequelize.org/v5/manual/querying.html#operators) 다양한 연산자들을 확인할 수 있다.
+[sequelize 공식문서](https://sequelize.org/v5/manual/querying.html#operators) 에서 다양한 연산자들을 확인할 수 있다.
+
+### Limit/Offset
+
+limit는 데이터의 개수를 제한해 주고, offset은 처음 몇개의 데이터를 제외하고 데이터를 가져온다.
+
+```
+// 맨위의 데이터부터 5개의 데이터만 가져온다.
+User.findAll({
+  limit:5
+});
+
+//처음 5개의 데이터를 제외하고, 5개의 데이터만 가져온다.
+User.findAll({
+  limit:5,
+  offset:5
+});
+```
+
+### Order
+
