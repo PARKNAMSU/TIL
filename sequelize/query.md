@@ -150,7 +150,7 @@ User.findAll({
 
 order 프로퍼티는 sql문의 ORDER 처럼 특정 컬럼에 따라 데이터를 오름차순, 내림차순으로 정렬하여 나타낸다.
 
-```
+```javascript
 // age에 따라 내림차순으로 정렬
 User.findAll({
   order:[
