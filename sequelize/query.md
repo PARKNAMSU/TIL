@@ -133,7 +133,7 @@ User.findAll({
 
 limit 프로퍼티는 데이터의 개수를 제한해 주고, offset 프로퍼티는 처음 몇개의 데이터를 제외하고 데이터를 가져온다.
 
-```
+```javascript
 // 맨위의 데이터부터 5개의 데이터만 가져온다.
 User.findAll({
   limit:5
@@ -150,4 +150,16 @@ User.findAll({
 
 order 프로퍼티는 sql문의 ORDER 처럼 특정 컬럼에 따라 데이터를 오름차순, 내림차순으로 정렬하여 나타낸다.
 
+```
+// age에 따라 내림차순으로 정렬
+User.findAll({
+  order:[
+    ['age','DESC']
+  ]
+})
+```
+<br>
+
+## 참조
+[sequelize 공식문서](https://sequelize.org/v5/manual/querying.html)
 
