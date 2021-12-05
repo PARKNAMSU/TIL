@@ -33,3 +33,30 @@ function funcOne(arr){
 <br>
 
 ### O(n)
+
+시간복잡도 O(n)은 linear complexity 라고도 하며 입력값 증가에 따라 같은비율로 증가한다.
+
+예를들면 입력값이 1이면 1초가 걸리는 문제라면, 100이라면 100초가 된다.
+
+![image](https://user-images.githubusercontent.com/62639722/144744946-f427a1ea-1c59-4dd8-9aec-abe1cd87c158.png)
+
+__O(n)의 예시__
+```javascript
+//arr의 길이만큼 반복(즉 arr가 증가하면 시간도 같은비율로 증가)
+function funcTwo(arr){
+  let max = 0;
+  for(let i=0; i<arr.length; i++){
+    if(arr[i] > max)
+      max = arr[i];
+  }
+  return max;
+}
+```
+
+<br>
+
+### O(log n)
+
+시간복잡도 O(log n)은 logarithmic complexity 라고도 하며, 입력값이 증가할수록 시간 증가율이 하락한다.
+
+![image](https://user-images.githubusercontent.com/62639722/144745166-e00ee6ee-8d47-451d-9d4e-bf5f6e06ab3b.png)
