@@ -65,9 +65,9 @@ O(log n)의 대표적인 알고리즘 으로는 [병합 정렬(Merge Sort)](http
 
 <br>
 
-### O(n2)
+### O(n^2)
 
-시간복잡도 O(n2)은 quadratic complexity라고 부르며,<br>
+시간복잡도 O(n^2)은 quadratic complexity라고 부르며,<br>
 입력값이 증가함에 따라 시간이 n의 제곱수의 비율로 증가하는 것을 말한다.
 
 즉 입력값의 크기가 1에서 5로 증가하면 5의 제곱인 25초가 증가하는 것이다.
