@@ -60,3 +60,39 @@ function funcTwo(arr){
 시간복잡도 O(log n)은 logarithmic complexity 라고도 하며, 입력값이 증가할수록 시간 증가율이 하락한다.
 
 ![image](https://user-images.githubusercontent.com/62639722/144745166-e00ee6ee-8d47-451d-9d4e-bf5f6e06ab3b.png)
+
+O(log n)의 대표적인 알고리즘 으로는 [병합 정렬(Merge Sort)](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/merge_sort.md) 가 있다.
+
+<br>
+
+### O(n2)
+
+시간복잡도 O(n2)은 quadratic complexity라고 부르며,<br>
+입력값이 증가함에 따라 시간이 n의 제곱수의 비율로 증가하는 것을 말한다.
+
+즉 입력값의 크기가 1에서 5로 증가하면 5의 제곱인 25초가 증가하는 것이다.
+
+![image](https://user-images.githubusercontent.com/62639722/144745506-7d2dda42-11a8-4d7d-8944-c63b484fea3a.png)
+
+O(n2) 의 대표적인 알고리즘 으로는 [버블 정렬(Bubble Sort)](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/bubble_sort.md) 가 있다.
+
+### O(2^n)
+
+시간복잡도 O(2^n)은 exponential complexity 라고도 하며, 가장 느린 시간복잡도를 가진다.
+
+![image](https://user-images.githubusercontent.com/62639722/144745777-ffbd1293-a360-4ac0-b63b-06c0b0bb7a25.png)
+
+O(2^n)으로 구현한 알고리즘은 매우 느리므로 O(2^n) 으로 구현된 알고리즘 이라면 다시 구현할 필요가 있다.
+ 
+O(2^n)의 대표적인 알고리즘 으로는 재귀적으로 구현된 피보나치(fibonacci) 수열이 있다.
+```
+function fibonacci(n){
+  if(n <= 1){
+    return 1;
+  }
+  return fibonacci(n-1) + fibonacci(n-2);
+}
+```
+
+## 참조
+[codestate](https://codestates.com/)
