@@ -13,3 +13,23 @@ Big-O는 최악, Big-Ω는 최선, Big-θ는 평균에 대해 나타내는 표�
 <br>
 
 ### Big-O 표기법의 종류
+
+#### O(1)
+
+시간복잡도 O(1) 은 constant complexity 라고도 하며, 입력값이 증가하더라도 시간이 늘어나지 않는다.
+
+즉 입력값의 크기가 증가해도 바로 출력값을 얻을 수 있다.
+
+![image](https://user-images.githubusercontent.com/62639722/144744827-0d690292-5cc9-4e27-8159-b1c579dd649b.png)
+
+__O(1)__ 의 예시
+```javascript
+//arr의 크기가 아무리 커도 시간복잡도가 증가하지 않는다.
+function funcOne(arr){
+  return arr[1];
+}
+```
+
+<br>
+
+#### O(n)
