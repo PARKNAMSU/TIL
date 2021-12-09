@@ -8,7 +8,7 @@
 // /err 요청을 보낼때 오류가 발생하면 이 미들웨어로 들어옴
 app.use('/err',(err,req,res,next) => {
   console.log(req.body);
-  res.status(500).send({
+  res.status(400).send({
     err
   });
 })
