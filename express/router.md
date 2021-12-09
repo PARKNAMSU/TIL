@@ -74,7 +74,7 @@ router.get('/user/:id',(req,res) => {
 
 Router.route() 메서드를 사용하면 HTTP 메서드를 이어서 설정할 수 있어서 코드의 중복을 줄일 수 있다.
 
-```
+```javascript
 // get, post, put, delete 메서드 설정
 router.route('/method')
     .get((req,res) => {
