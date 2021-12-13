@@ -1,15 +1,6 @@
 # Today I Learn(TIL)
 [Engineering Blog](https://nspark.tistory.com/)
 
-<details>
-<summary>토글 접기/펼치기</summary>
-<div markdown="1">
-
-안녕
-
-</div>
-</details>
-
 ## LIST
 ### Algorithm
 * [Time Complexity](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/time_complexity.md)
