@@ -68,3 +68,4 @@
 * [EC2](https://github.com/PARKNAMSU/TIL/blob/main/aws/ec2.md)
 * [S3](https://github.com/PARKNAMSU/TIL/blob/main/aws/s3.md)
 * [RDS](https://github.com/PARKNAMSU/TIL/blob/main/aws/rds.md)
+* [Load Balancer](https://github.com/PARKNAMSU/TIL/blob/main/aws/load_balancer_https.md)
