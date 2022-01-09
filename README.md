@@ -19,7 +19,7 @@
 
 ### NodeJS
 * [Module](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_module.md)
-* [HTTP](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_module.md) 
+* [HTTP](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/http_module.md) 
 * [File System](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/fs.md)
 * [Nodemailer](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/mail.md)
 
