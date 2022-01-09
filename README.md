@@ -69,3 +69,6 @@
 * [S3](https://github.com/PARKNAMSU/TIL/blob/main/aws/s3.md)
 * [RDS](https://github.com/PARKNAMSU/TIL/blob/main/aws/rds.md)
 * [Load Balancer](https://github.com/PARKNAMSU/TIL/blob/main/aws/load_balancer_https.md)
+
+### Typescript
+* [Introduce](https://github.com/PARKNAMSU/TIL/blob/main/typescript/typescript%20intro.md)
