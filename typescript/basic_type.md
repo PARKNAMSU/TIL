@@ -120,7 +120,7 @@ function helloWorld:void (){
 
 함수 끝에 도달하지 않는 함수를 말한다.
 
-```
+```typescript
 function loop(): never {
   while (true) {
 
