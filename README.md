@@ -72,3 +72,4 @@
 
 ### Typescript
 * [Introduce](https://github.com/PARKNAMSU/TIL/blob/main/typescript/typescript%20intro.md)
+* [Basic Type](https://github.com/PARKNAMSU/TIL/blob/main/typescript/basic_type.md)
