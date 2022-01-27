@@ -102,6 +102,8 @@ let b:any = {
 }
 ```
 
+<br>
+
 ## Void
 
 void 타입의 변수에는 undefind 와 null 값만 할당이 가능하고, 함수의 반환형에 void 를 지정하면 반환값이 없다.
