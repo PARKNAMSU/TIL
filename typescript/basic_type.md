@@ -1,6 +1,6 @@
 # Typescript 기본타입
 
-### String
+## String
 
 문자열 타입은 string 키워드를 사용한다.
 
@@ -10,7 +10,7 @@ let str:string = 'hihi'
 
 <br>
 
-### Number
+## Number
 
 숫자 타입은 number 를 사용한다.
 
@@ -20,7 +20,7 @@ let num:number = 1234
 
 <br>
 
-### Boolean
+## Boolean
 
 진위여부 값은 boolean을 사용한다.
 
@@ -30,7 +30,7 @@ let isTrue:boolean = true
 
 <br>
 
-### Array
+## Array
 
 배열은 `type[]` 형태로 지정하거나 제네릭을 사용하여 `Array<type>` 으로 지정할 수 있다.
 
@@ -43,7 +43,7 @@ let arr2:Array<number> = [1,2,3]
 
 <br>
 
-### Tuple
+## Tuple
 
 튜플은 값이 고정되어 있고 각 요소마다 타입이 지정되어있는 자료형을 말한다.
 
@@ -53,7 +53,7 @@ let arr:[boolean,string,number] = [true,'hi',10]
 
 <br>
 
-### Enum
+## Enum
 
 이넘은 특정값들의 집합을 의미한다.
 
@@ -89,7 +89,7 @@ enum MyEnum {
 
 <br>
 
-### Any
+## Any
 
 any 타입은 모든 값에 사용될 수 있다.
 
@@ -102,7 +102,7 @@ let b:any = {
 }
 ```
 
-### Void
+## Void
 
 void 타입의 변수에는 undefind 와 null 값만 할당이 가능하고, 함수의 반환형에 void 를 지정하면 반환값이 없다.
 
@@ -116,7 +116,7 @@ function helloWorld:void (){
 
 <br>
 
-### Never
+## Never
 
 함수 끝에 도달하지 않는 함수를 말한다.
 
