@@ -35,4 +35,4 @@ fucntion plus(a:number, b = 10):number {
 <br>
 
 ## 참조
-[Typescript 핸드북](https://joshua1988.github.io/ts/guide/functions.html#this)
+[Typescript 핸드북](https://joshua1988.github.io/ts/guide/functions.html)
