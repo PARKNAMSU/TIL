@@ -34,5 +34,34 @@ fucntion plus(a:number, b = 10):number {
 
 <br>
 
+## This
+
+typescript 에서는 this 가 가리키는 것을 명시할 수 있다.
+
+```typescript
+interface MyObj{
+  name:string;
+  age:number;
+  getInfo(this:MyObj): () => {};
+}
+
+let myObj:MyObj{
+  name:'park',
+  age:20,
+  getInfo: function(this: MyObj) {
+    return () => {
+      return `name = ${this.name} , age = ${this.age}`;
+    }
+  }
+}
+
+let getInfo = myObj.getInfo();
+
+// name = park , age = 20
+console.log(getInfo());
+```
+
+<br>
+
 ## 참조
 [Typescript 핸드북](https://joshua1988.github.io/ts/guide/functions.html)
