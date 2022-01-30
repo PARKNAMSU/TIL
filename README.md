@@ -74,3 +74,4 @@
 * [Introduce](https://github.com/PARKNAMSU/TIL/blob/main/typescript/typescript%20intro.md)
 * [Basic Type](https://github.com/PARKNAMSU/TIL/blob/main/typescript/basic_type.md)
 * [Function Type](https://github.com/PARKNAMSU/TIL/blob/main/typescript/function_type.md)
+* [Interface](https://github.com/PARKNAMSU/TIL/blob/main/typescript/interface_type.md)
