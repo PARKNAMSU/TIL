@@ -164,7 +164,7 @@ let player1:FootBallPlayer ={
 자바스크립트의 유연성을 살려서 하이브리드 타입을 만들 수 있다.  
 아래는 함수이면서 객체 타입을 정의할 수 있는 하이브리드 타입이다.
 
-```
+```typescript
 interface Hybrid{
   (arg1:string):string;
   name:string;
