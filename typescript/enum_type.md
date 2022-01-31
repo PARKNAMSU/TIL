@@ -42,7 +42,7 @@ console.log(`${MyNum.ONE} ${MyNum.TWO} ${MyNum.THREE}`);
 
 문자형 이넘을 사용할 때는 모든 값을 초기화 해야 한다.
 
-```
+```typescript
 enum MyStr{
   ONE = 'one',
   TWO = 'two',
@@ -60,7 +60,7 @@ console.log(`${MyNum.ONE} ${MyNum.TWO} ${MyNum.THREE}`);
 문자열과 숫자를 복합하여 이넘에 사용할 수 있지만 이넘에는 같은 타입을 사용하는 것이 좋다.
 
 
-```
+```typescript
 // 사용 할 수는 있지만 권장하지 않는다.
 enum MyEnum{
   ONE = 1,
@@ -78,7 +78,7 @@ console.log(`${MyNum.ONE} ${MyNum.TWO} ${MyNum.THREE}`);
 
 런타임 시점에 Enum은 실제 객체이지만 컴파일 시점에서는 아니므로 keyof 사용 시 typeof를 함께 사용해 주어야 한다.
 
-```
+```typescript
 enum UserType {
   TEMP,USER,ADMIN
 }
