@@ -76,3 +76,6 @@
 * [Function Type](https://github.com/PARKNAMSU/TIL/blob/main/typescript/function_type.md)
 * [Interface](https://github.com/PARKNAMSU/TIL/blob/main/typescript/interface_type.md)
 * [Enum](https://github.com/PARKNAMSU/TIL/blob/main/typescript/enum_type.md)
+
+### HTTP
+* [HTTP Introduce](https://github.com/PARKNAMSU/TIL/blob/main/http/http_intro.md)
