@@ -18,7 +18,7 @@ a = 'ten';
 
 인터섹션 타입은 여러타입을 모두 만족하는 하나의 타입을 의미한다. 즉 타입들의 합집합을 의미
 
-```
+```typescript
 interface User{
   name:string,
   age:number
@@ -47,7 +47,7 @@ type StudentInfomation = User & Student;
 
 Union Type 을 Interface 에 적용 시에는 두 인터페이스 들의 교집합인 프로퍼티만 사용이 가능하다.  교집합이 아닌 타입을 사용 시 오류가 발생
 
-```
+```typescript
 interface User{
   name:string,
   age:number
