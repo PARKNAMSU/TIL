@@ -19,7 +19,7 @@
 * [Kruskal Algorithm](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/kruskal.md)
 
 ### Data Structure
-* [Array]()
+* [Array](https://github.com/PARKNAMSU/TIL/blob/main/data-structure/array.md)
 
 ### NodeJS
 * [Module](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_module.md)
