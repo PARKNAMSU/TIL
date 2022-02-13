@@ -22,6 +22,7 @@
 * [Array](https://github.com/PARKNAMSU/TIL/blob/main/data-structure/array.md)
 * [Stack](https://github.com/PARKNAMSU/TIL/blob/main/data-structure/stack.md)
 * [Queue](https://github.com/PARKNAMSU/TIL/blob/main/data-structure/queue.md)
+* [Linked List](https://github.com/PARKNAMSU/TIL/blob/main/data-structure/linked-list.md)
 
 ### NodeJS
 * [Module](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_module.md)
