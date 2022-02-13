@@ -1,6 +1,8 @@
 # Linked List
 
-## Linked List 란?
+<br>
+
+## 📒 Linked List 란?
 
 <img width="444" alt="image" src="https://user-images.githubusercontent.com/62639722/153745404-d3a9c5b1-5c46-4ae5-bf86-28c2f8b3859c.png">
 
@@ -10,7 +12,7 @@ Index를 사용하지 않고 참조 시스템을 사용하는데, 각 요소는 
 
 <br>
 
-## Linked List의 종류
+## 📕 Linked List의 종류
 
 * 단순 연결 리스트 (Singly Linked List)
 
@@ -36,7 +38,7 @@ Index를 사용하지 않고 참조 시스템을 사용하는데, 각 요소는 
 
 <br>
 
-## Linked List 장점
+## 📗 Linked List 장점
 
 * 새로운 요소들의 추가 삭제 시 효율이 좋다.
 * 배열처럼 구조를 재구성할 필요가 없다.
@@ -45,14 +47,14 @@ Index를 사용하지 않고 참조 시스템을 사용하는데, 각 요소는 
 
 <br>
 
-## Linked List 단점
+## 📘 Linked List 단점
 
 * 배열보다 더 많은 메모리 공간을 차지한다.
 * 노드 검색 시 처음부터 끝까지 검색하기 때문에 비효율적이다.
 
 <br>
 
-## Linked List 사용
+## 📙 Linked List 사용
 
 * 메모리의 크기가 고정되어 있지 않아야 하는 경우
 * 빠르게 삽입/삭제 작업이 필요한 경우
