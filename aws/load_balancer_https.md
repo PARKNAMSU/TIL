@@ -1,4 +1,4 @@
-# Load Balancer Setting And Https
+# Load Balancer
 
 ## 임시로 적어놓음(추후 구체적으로 문서화 할 예정)
 
