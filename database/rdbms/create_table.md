@@ -53,3 +53,8 @@ Mysql 의 제약조건은 아래와 같다.
 * FOREIGN KEY : 다른 테이블의 필드를 참조하는 키
 * DEFAULT : 해당 필드의 기본값
 
+<br>
+
+## FOREIGN KEY
+
+FOREIGN KEY는 다른 테이블의 필드를 참조하고 있는 필드로 사용 방법은 다음과 같다.
