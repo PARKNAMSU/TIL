@@ -84,7 +84,7 @@ enum UserType {
 }
 
 // 'TEMP' | 'USER' | 'ADMIN';
-type LogLevelStrings = keyof typeof LogLevel
+type LogLevelStrings = keyof typeof UserType
 ```
 
 <br>
