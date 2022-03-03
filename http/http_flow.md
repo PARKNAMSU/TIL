@@ -6,6 +6,7 @@ HTTP는 다음과 같은 흐름을 가지고 있다.
 
 TCP 연결을 열어서 요청을 보내거나 응답을 받는데 사용한다.  
 클라이언트는 새 연결을 열거나 기존의 연결을 재사용 할 수 있고, 서버에 대한 여러 TCP연결을 열 수 있다.
+
 TCP 연결이 오픈되기 전 클라이언트와 서버간의 세션을 수립하기 위해 [3 way handshake](https://github.com/PARKNAMSU/TIL/blob/main/http/3_way_handshake.md) 과정을 거치게 된다.
 
 <br>
