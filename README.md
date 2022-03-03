@@ -90,3 +90,4 @@
 ### HTTP
 * [HTTP Introduce](https://github.com/PARKNAMSU/TIL/blob/main/http/http_intro.md)
 * [HTTP Flow](https://github.com/PARKNAMSU/TIL/blob/main/http/http_flow.md)
+* [3 way handshake](https://github.com/PARKNAMSU/TIL/blob/main/http/3_way_handshake.md)
