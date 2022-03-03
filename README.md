@@ -56,6 +56,7 @@
 
 ### RDBMS
 * [MySql Install and Setting](https://github.com/PARKNAMSU/TIL/blob/main/database/rdbms/install_mysql.md)
+* [Create Table](https://github.com/PARKNAMSU/TIL/blob/main/database/rdbms/create_table.md)
 
 ### Sequelize
 * [Install and Setting](https://github.com/PARKNAMSU/TIL/blob/main/sequelize/install_setting.md)
