@@ -25,7 +25,7 @@
 * [Linked List](https://github.com/PARKNAMSU/TIL/blob/main/data-structure/linked-list.md)
 
 ### NodeJS
-* [Node Js Introduce](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_js.md)
+* [NodeJs Introduce](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_js.md)
 * [Module](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_module.md)
 * [HTTP](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/http_module.md) 
 * [File System](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/fs.md)
