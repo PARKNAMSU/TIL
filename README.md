@@ -15,7 +15,6 @@
 * [Merge Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/merge_sort.md)
 * [Heap Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/heap_sort.md)
 * [Counting Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/counting_sort.md)
-* [Graph](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/graph.md)
 * [BFS(Breadth First Search)](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/bfs.md)
 * [DFS(Depth First Search)](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/dfs.md)
 * [Union-Find](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/union-find.md)
@@ -33,6 +32,7 @@
 * [Stack](https://github.com/PARKNAMSU/TIL/blob/main/data-structure/stack.md)
 * [Queue](https://github.com/PARKNAMSU/TIL/blob/main/data-structure/queue.md)
 * [Linked List](https://github.com/PARKNAMSU/TIL/blob/main/data-structure/linked-list.md)
+* [Graph](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/graph.md)
   
 </div>
 </details>
