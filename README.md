@@ -6,8 +6,7 @@
 <details>
   <summary><b>Algorithm</b></summary>
 <div markdown="1">
-</div>
-  
+
 * [Time Complexity](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/time_complexity.md)
 * [Seleted Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/selection_sort.md)
 * [Bubble Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/bubble_sort.md)
@@ -21,7 +20,9 @@
 * [DFS(Depth First Search)](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/dfs.md)
 * [Union-Find](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/union-find.md)
 * [Kruskal Algorithm](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/kruskal.md)
-
+  
+  
+</div>
 </details>
 
 <details>
@@ -36,14 +37,23 @@
 </div>
 </details>
   
-### NodeJS
+<details>
+  <summary><b>NodeJS</b></summary>
+<div markdown="1">
+ 
 * [NodeJs Introduce](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_js.md)
 * [Module](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_module.md)
 * [HTTP](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/http_module.md) 
 * [File System](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/fs.md)
 * [Nodemailer](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/mail.md)
 
-### Express
+</div>
+</details>
+
+<details>
+  <summary><b>Express</b></summary>
+<div markdown="1">
+
 * [Development Environment Setup](https://github.com/PARKNAMSU/TIL/blob/main/express/express_setting.md)
 * [Basic Routing](https://github.com/PARKNAMSU/TIL/blob/main/express/express_routing.md)
 * [Serving Static File](https://github.com/PARKNAMSU/TIL/blob/main/express/express_static.md)
@@ -51,7 +61,13 @@
 * [Use MiddleWare](https://github.com/PARKNAMSU/TIL/blob/main/express/use_middleware.md)
 * [Error Handling](https://github.com/PARKNAMSU/TIL/blob/main/express/err_handle.md)
 
-### React
+</div>
+</details>
+
+<details>
+  <summary><b>React</b></summary>
+<div markdown="1">
+
 * [Development Environment Setup](https://github.com/PARKNAMSU/TIL/blob/main/React/react_setting.md)
 * [Rendering](https://github.com/PARKNAMSU/TIL/blob/main/React/react_rendering.md)
 * [Component and Props](https://github.com/PARKNAMSU/TIL/blob/main/React/react_component_props.md)
@@ -59,39 +75,81 @@
 * [State and Lifecyle](https://github.com/PARKNAMSU/TIL/blob/main/React/react_state_lifecycle.md)
 * [Event handling](https://github.com/PARKNAMSU/TIL/blob/main/React/react_event_handle.md)
 
-### Redux
+</div>
+</details>  
+  
+<details>
+  <summary><b>Redux</b></summary>
+<div markdown="1">
+  
 * [Introduce](https://github.com/PARKNAMSU/TIL/blob/main/redux/redux_intro.md)
 * [Development Environment Setup and Redux Basic](https://github.com/PARKNAMSU/TIL/blob/main/redux/redux_basic.md)
 
-### Linux
+</div>
+</details>
+
+<details>
+  <summary><b>Linux</b></summary>
+<div markdown="1">
+
 * [File Auth](https://github.com/PARKNAMSU/TIL/blob/main/linux/file_auth.md)
 * [Environment Variable](https://github.com/PARKNAMSU/TIL/blob/main/linux/environment_variable.md)
 
-### RDBMS
+</div>
+</details>
+
+<details>
+  <summary><b>RDBMS</b></summary>
+<div markdown="1">
+
 * [MySql Install and Setting](https://github.com/PARKNAMSU/TIL/blob/main/database/rdbms/install_mysql.md)
 * [Create Table](https://github.com/PARKNAMSU/TIL/blob/main/database/rdbms/create_table.md)
 
-### Sequelize
+</div>
+</details>
+
+<details>
+  <summary><b>Sequelize</b></summary>
+<div markdown="1">
+  
 * [Install and Setting](https://github.com/PARKNAMSU/TIL/blob/main/sequelize/install_setting.md)
 * [Model Basic](https://github.com/PARKNAMSU/TIL/blob/main/sequelize/model_basic.md)
 * [Model Instace](https://github.com/PARKNAMSU/TIL/blob/main/sequelize/model_instance.md)
 * [Query](https://github.com/PARKNAMSU/TIL/blob/main/sequelize/query.md)
 
-### Auth
+</div>
+</details>
+  
+<details>
+  <summary><b>Auth</b></summary>
+<div markdown="1">
+  
 * [HTTPS](https://github.com/PARKNAMSU/TIL/blob/main/auth/https.md)
 * [Cookie](https://github.com/PARKNAMSU/TIL/blob/main/auth/cookie.md)
 * [Session](https://github.com/PARKNAMSU/TIL/blob/main/auth/session.md)
 * [JWT Introduce](https://github.com/PARKNAMSU/TIL/blob/main/auth/jwt.md)
 * [Using JWT](https://github.com/PARKNAMSU/TIL/blob/main/auth/jwt_ex.md)
 
-### AWS
+</div>
+</details>
+
+<details>
+  <summary><b>AWS</b></summary>
+<div markdown="1">
+  
 * [Cloud Service](https://github.com/PARKNAMSU/TIL/blob/main/aws/cloud.md)
 * [EC2](https://github.com/PARKNAMSU/TIL/blob/main/aws/ec2.md)
 * [S3](https://github.com/PARKNAMSU/TIL/blob/main/aws/s3.md)
 * [RDS](https://github.com/PARKNAMSU/TIL/blob/main/aws/rds.md)
 * [Load Balancer](https://github.com/PARKNAMSU/TIL/blob/main/aws/load_balancer_https.md)
 
-### Typescript
+</div>
+</details>
+
+<details>
+  <summary><b>Typescript</b></summary>
+<div markdown="1">
+  
 * [Introduce](https://github.com/PARKNAMSU/TIL/blob/main/typescript/typescript%20intro.md)
 * [Basic Type](https://github.com/PARKNAMSU/TIL/blob/main/typescript/basic_type.md)
 * [Function Type](https://github.com/PARKNAMSU/TIL/blob/main/typescript/function_type.md)
@@ -100,7 +158,16 @@
 * [Use Operator](https://github.com/PARKNAMSU/TIL/blob/main/typescript/use_operator.md)
 * [Type Nickname](https://github.com/PARKNAMSU/TIL/blob/main/typescript/type_nickname.md)
 
-### HTTP
+</div>
+</details>
+
+<details>
+  <summary><b>HTTP</b></summary>
+<div markdown="1">
+  
 * [HTTP Introduce](https://github.com/PARKNAMSU/TIL/blob/main/http/http_intro.md)
 * [HTTP Flow](https://github.com/PARKNAMSU/TIL/blob/main/http/http_flow.md)
 * [3 way handshake](https://github.com/PARKNAMSU/TIL/blob/main/http/3_way_handshake.md)
+
+</div>
+</details>
