@@ -7,6 +7,7 @@
 <summary>Algorithm</summary>
 <div markdown="1">
 </div>
+  
 * [Time Complexity](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/time_complexity.md)
 * [Seleted Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/selection_sort.md)
 * [Bubble Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/bubble_sort.md)
@@ -20,6 +21,7 @@
 * [DFS(Depth First Search)](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/dfs.md)
 * [Union-Find](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/union-find.md)
 * [Kruskal Algorithm](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/kruskal.md)
+
 </details>
 
 ### Data Structure
