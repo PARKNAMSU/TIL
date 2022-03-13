@@ -4,7 +4,11 @@
 ## LIST
 
 <details>
-<summary> ###Algorithm </summary>
+<summary> 
+  
+  ###Algorithm 
+  
+</summary>
 <div markdown="1">
 </div>
   
