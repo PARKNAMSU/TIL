@@ -3,6 +3,11 @@
 
 ## LIST
 
+<details>
+<summary>박남수</summary>
+<div markdown="1">
+</div>
+</details>
 ### Algorithm
 * [Time Complexity](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/time_complexity.md)
 * [Seleted Sort](https://github.com/PARKNAMSU/TIL/blob/main/Algorithm/selection_sort.md)
