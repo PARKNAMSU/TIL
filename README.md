@@ -4,7 +4,7 @@
 ## LIST
 
 <details>
-  <summary><h3>Algorithm</h3></summary>
+  <summary><b>Algorithm</b></summary>
 <div markdown="1">
 </div>
   
