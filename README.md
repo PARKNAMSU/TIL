@@ -24,12 +24,18 @@
 
 </details>
 
-### Data Structure
+<details>
+  <summary><b>Data Structure</b></summary>
+<div markdown="1">
+</div>
+  
 * [Array](https://github.com/PARKNAMSU/TIL/blob/main/data-structure/array.md)
 * [Stack](https://github.com/PARKNAMSU/TIL/blob/main/data-structure/stack.md)
 * [Queue](https://github.com/PARKNAMSU/TIL/blob/main/data-structure/queue.md)
 * [Linked List](https://github.com/PARKNAMSU/TIL/blob/main/data-structure/linked-list.md)
 
+</details>
+  
 ### NodeJS
 * [NodeJs Introduce](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_js.md)
 * [Module](https://github.com/PARKNAMSU/TIL/blob/main/nodeJs/node_module.md)
