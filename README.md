@@ -104,7 +104,8 @@
 
 * [MySql Install and Setting](https://github.com/PARKNAMSU/TIL/blob/main/database/rdbms/install_mysql.md)
 * [Create Table](https://github.com/PARKNAMSU/TIL/blob/main/database/rdbms/create_table.md)
-
+* [CRUD(Create, Read, Update, Delete)](https://github.com/PARKNAMSU/TIL/blob/main/database/rdbms/crud_table.md)
+  
 </div>
 </details>
 
