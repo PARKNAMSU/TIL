@@ -177,5 +177,7 @@
   <summary><b>Redis</b></summary>
 <div markdown="1">
 
+* [Redis Install](https://github.com/PARKNAMSU/TIL/blob/main/redis/redis_install.md#%EC%B0%B8%EC%A1%B0)
+  
 </div>
 </details>
