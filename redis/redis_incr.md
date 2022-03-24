@@ -11,10 +11,10 @@ incr 명령어는 데이터의 숫자를 1 씩 증가시킨다.
 ```
 > set a 10
 > OK
-> incr a
+> decr a
 > 11
 
-> incr b
+> decr b
 > 1
 ```
 <br>
