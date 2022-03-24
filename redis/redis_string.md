@@ -22,3 +22,9 @@ key 디자인을 할 때는 적절한 사이즈를 유지하는 것이 좋다.
 <br>
 
 key 를 구성할 때는 단어 사이에 구분자, 특히 `_` 를 사용하는 것이 좋다.
+
+<br>
+
+## 참조
+
+[redis gate](http://redisgate.kr/redis/command/strings.php)
