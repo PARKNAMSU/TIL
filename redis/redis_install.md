@@ -6,7 +6,7 @@
 
 home brew 를 이용하여 redis 를 설치해 준다.
 ```
-brew install redis
+$ brew install redis
 ```
 
 <br>
@@ -15,13 +15,13 @@ brew install redis
 
 ```
 ## 실행
-brew services start redis
+$ brew services start redis
 
 ## 종료
-brew services stop redis
+$ brew services stop redis
 
 ## 재시작
-brew services restart redis
+$ brew services restart redis
 ```
 
 <br>
