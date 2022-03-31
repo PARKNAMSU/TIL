@@ -181,6 +181,7 @@
 * [Redis String](https://github.com/PARKNAMSU/TIL/blob/main/redis/redis_string.md)
 * [Redis set get](https://github.com/PARKNAMSU/TIL/blob/main/redis/redis_string_set_get.md)
 * [Redis incr](https://github.com/PARKNAMSU/TIL/blob/main/redis/redis_incr.md)
+* [Redis incrby decrby](https://github.com/PARKNAMSU/TIL/blob/main/redis/redis_incrby.md)
   
 </div>
 </details>
